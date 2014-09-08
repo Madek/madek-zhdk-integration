@@ -1,0 +1,1182 @@
+---
+zhdk_ldap_mapping:
+  CAS.alle: Certificate of Advanced Studies, Zertifikatslehrgänge
+  CAS.dozierende: Certificate of Advanced Studies, Zertifikatslehrgänge
+  CAS.mittelbau: Certificate of Advanced Studies, Zertifikatslehrgänge
+  DDE.alle: Departement Design
+  DDE.dozierende: Departement Design
+  DDE.mittelbau: Departement Design
+  DDE.personal: Departement Design
+  DDE.studierende: Departement Design
+  DDE_FDE.alle: Fachrichtung Design
+  DDE_FDE.dozierende: Fachrichtung Design
+  DDE_FDE.mittelbau: Fachrichtung Design
+  DDE_FDE.personal: Fachrichtung Design
+  DDE_FDE.studierende: Fachrichtung Design
+  DDE_FDE_BDE.alle: Bachelor Design
+  DDE_FDE_BDE.dozierende: Bachelor Design
+  DDE_FDE_BDE.mittelbau: Bachelor Design
+  DDE_FDE_BDE.personal: Bachelor Design
+  DDE_FDE_BDE.studierende: Bachelor Design
+  DDE_FDE_BDE_SIAG_05W.studierende: Bachelor Design - Schwerpunkt Game Design WS 2005
+  DDE_FDE_BDE_VCA.alle: Vertiefung Cast
+  DDE_FDE_BDE_VCA.personal: Vertiefung Cast
+  DDE_FDE_BDE_VCA.studierende: Vertiefung Cast
+  DDE_FDE_BDE_VCA_08H.studierende: Bachelor Design - Vertiefung Cast - HS 2008
+  DDE_FDE_BDE_VCA_09H.studierende: Bachelor Design - Vertiefung Cast - HS 2009
+  DDE_FDE_BDE_VCA_10H.studierende: Bachelor Design - Vertiefung Cast / Audiovisuelle Medien - HS 2010
+  DDE_FDE_BDE_VCA_11H.studierende: Bachelor Design - Vertiefung Cast / Audiovisuelle Medien - HS 2011
+  DDE_FDE_BDE_VCA_12H.studierende: Bachelor Design - Vertiefung Cast / Audiovisuelle Medien - HS 2012
+  DDE_FDE_BDE_VCA_13H.studierende: Bachelor Design - Vertiefung Cast / Audiovisuelle Medien - HS 2013
+  DDE_FDE_BDE_VGD.alle: Vertiefung Game Design
+  DDE_FDE_BDE_VGD.studierende: Vertiefung Game Design
+  DDE_FDE_BDE_VGD_08H.studierende: Bachelor Design - Vertiefung Game Design - HS 2008
+  DDE_FDE_BDE_VGD_09H.studierende: Bachelor Design - Vertiefung Game Design - HS 2009
+  DDE_FDE_BDE_VGD_10H.studierende: Bachelor Design - Vertiefung Game Design - HS 2010
+  DDE_FDE_BDE_VGD_11H.studierende: Bachelor Design - Vertiefung Game Design - HS 2011
+  DDE_FDE_BDE_VGD_12H.studierende: Bachelor Design - Vertiefung Game Design - HS 2012
+  DDE_FDE_BDE_VGD_13H.studierende: Bachelor Design - Vertiefung Game Design - HS 2013
+  DDE_FDE_BDE_VIAD.alle: Vertiefung Interaction Design
+  DDE_FDE_BDE_VIAD.studierende: Vertiefung Interaction Design
+  DDE_FDE_BDE_VIAD_08H.studierende: Bachelor Design - Vertiefung Interaction Design - HS 2008
+  DDE_FDE_BDE_VIAD_09H.studierende: Bachelor Design - Vertiefung Interaction Design - HS 2009
+  DDE_FDE_BDE_VIAD_10H.studierende: Bachelor Design - Vertiefung Interaction Design - HS 2010
+  DDE_FDE_BDE_VIAD_11H.studierende: Bachelor Design - Vertiefung Interaction Design - HS 2011
+  DDE_FDE_BDE_VIAD_12H.studierende: Bachelor Design - Vertiefung Interaction Design - HS 2012
+  DDE_FDE_BDE_VIAD_13H.studierende: Bachelor Design - Vertiefung Interaction Design - HS 2013
+  DDE_FDE_BDE_VID.alle: Vertiefung Industrial Design
+  DDE_FDE_BDE_VID.dozierende: Vertiefung Industrial Design
+  DDE_FDE_BDE_VID.mittelbau: Vertiefung Industrial Design
+  DDE_FDE_BDE_VID.personal: Vertiefung Industrial Design
+  DDE_FDE_BDE_VID.studierende: Vertiefung Industrial Design
+  DDE_FDE_BDE_VID_07H.studierende: Bachelor Design - Vertiefung Industrial Design HS 2007
+  DDE_FDE_BDE_VID_08H.studierende: Bachelor Design - Vertiefung Industrial Design - HS 2008
+  DDE_FDE_BDE_VID_09H.studierende: Bachelor Design - Vertiefung Industrial Design - HS 2009
+  DDE_FDE_BDE_VID_10H.studierende: Bachelor Design - Vertiefung Industrial Design - HS 2010
+  DDE_FDE_BDE_VID_11H.studierende: Bachelor Design - Vertiefung Industrial Design - HS 2011
+  DDE_FDE_BDE_VID_12H.studierende: Bachelor Design - Vertiefung Industrial Design - HS 2012
+  DDE_FDE_BDE_VID_13H.studierende: Bachelor Design - Vertiefung Industrial Design - HS 2013
+  DDE_FDE_BDE_VSD.alle: Vertiefung Style&Design
+  DDE_FDE_BDE_VSD.studierende: Vertiefung Style&Design
+  DDE_FDE_BDE_VSD_07H.studierende: Bachelor Design - Vertiefung Style & Design HS 2007
+  DDE_FDE_BDE_VSD_08H.studierende: Bachelor Design - Vertiefung Style & Design - HS 2008
+  DDE_FDE_BDE_VSD_09H.studierende: Bachelor Design - Vertiefung Style & Design - HS 2009
+  DDE_FDE_BDE_VSD_10H.studierende: Bachelor Design - Vertiefung Style & Design - HS 2010
+  DDE_FDE_BDE_VSD_11H.studierende: Bachelor Design - Vertiefung Style & Design - HS 2011
+  DDE_FDE_BDE_VSD_12H.studierende: Bachelor Design - Vertiefung Style & Design - HS 2012
+  DDE_FDE_BDE_VSD_13H.studierende: Bachelor Design - Vertiefung Style & Design - HS 2013
+  DDE_FDE_BDE_VSV.alle: Vertiefung Scientific Visualization / Wissenschaftliche Illustration
+  DDE_FDE_BDE_VSV.studierende: Vertiefung Scientific Visualization / Wissenschaftliche Illustration
+  DDE_FDE_BDE_VSV_08H.studierende: Bachelor Design - Vertiefung Scientific Visualization - HS 2008
+  DDE_FDE_BDE_VSV_09H.studierende: Bachelor Design - Vertiefung Scientific Visualization - HS 2009
+  DDE_FDE_BDE_VSV_10H.studierende: Bachelor Design - Vertiefung Scientific Visualization - HS 2010
+  DDE_FDE_BDE_VSV_11H.studierende: Bachelor Design - Vertiefung Scientific Visualization - HS 2011
+  DDE_FDE_BDE_VSV_12H.studierende: Bachelor Design - Vertiefung Scientific Visualization - HS 2012
+  DDE_FDE_BDE_VSV_13H.studierende: Bachelor Design - Vertiefung Scientific Visualization - HS 2013
+  DDE_FDE_BDE_VVK.alle: Vertiefung Visuelle Kommunikation
+  DDE_FDE_BDE_VVK.studierende: Vertiefung Visuelle Kommunikation
+  DDE_FDE_BDE_VVK_06W.studierende: Bachelor Design - Vertiefung Visuelle Kommunikation WS 2006
+  DDE_FDE_BDE_VVK_07H.studierende: Bachelor Design - Vertiefung Visuelle Kommunikation HS 2007
+  DDE_FDE_BDE_VVK_08H.studierende: Bachelor Design - Vertiefung Visuelle Kommunikation - HS 2008
+  DDE_FDE_BDE_VVK_09H.studierende: Bachelor Design - Vertiefung Visuelle Kommunikation - HS 2009
+  DDE_FDE_BDE_VVK_10H.studierende: Bachelor Design - Vertiefung Visuelle Kommunikation - HS 2010
+  DDE_FDE_BDE_VVK_11H.studierende: Bachelor Design - Vertiefung Visuelle Kommunikation - HS 2011
+  DDE_FDE_BDE_VVK_12H.studierende: Bachelor Design - Vertiefung Visuelle Kommunikation - HS 2012
+  DDE_FDE_BDE_VVK_13H.studierende: Bachelor Design - Vertiefung Visuelle Kommunikation - HS 2013
+  DDE_FDE_MASDEC.alle: MAS Design Culture
+  DDE_FDE_MASDEC.dozierende: MAS Design Culture
+  DDE_FDE_MASDEC.mittelbau: MAS Design Culture
+  DDE_FDE_MASDEC.studierende: MAS Design Culture
+  DDE_FDE_MASDEC_06S.studierende: MAS Design Culture SS 2006
+  DDE_FDE_MASDEC_06W.studierende: MAS Design Culture WS 2006
+  DDE_FDE_MASDEC_07H.studierende: MAS Design Culture HS 2007
+  DDE_FDE_MASDEC_07S.studierende: MAS Design Culture SS 2007
+  DDE_FDE_MASDEC_08F.studierende: MAS Design Culture FS 2008
+  DDE_FDE_MASDEC_08H.studierende: MAS Design Culture HS 2008
+  DDE_FDE_MASDEC_09H.studierende: MAS Design Culture HS 2009
+  DDE_FDE_MASDEC_10H.studierende: MAS Design Culture HS 2010
+  DDE_FDE_MASSD.alle: MAS Spatial Design
+  DDE_FDE_MASSD.dozierende: MAS Spatial Design
+  DDE_FDE_MASSD.mittelbau: MAS Spatial Design
+  DDE_FDE_MASSD.studierende: MAS Spatial Design
+  DDE_FDE_MASSD_11H.studierende: MAS Spatial Design HS 2011
+  DDE_FDE_MASSD_12H.studierende: MAS Spatial Design HS 2012
+  DDE_FDE_MASSD_13H.studierende: MAS Spatial Design HS 2013
+  DDE_FDE_MASSZ.alle: MAS Szenografie
+  DDE_FDE_MASSZ.dozierende: MAS Szenografie
+  DDE_FDE_MASSZ.mittelbau: MAS Szenografie
+  DDE_FDE_MASSZ.studierende: MAS Szenografie
+  DDE_FDE_MASSZ_07H.studierende: MAS Szenografie HS 2007
+  DDE_FDE_MASSZ_09H.studierende: MAS Szenografie HS 2009
+  DDE_FDE_MASSZ_10H.studierende: MAS Szenografie HS 2010
+  DDE_FDE_MASSZ_DP_06W.studierende: MAS Doktoratsprogramm Szenografie WS 2006
+  DDE_FDE_MASSZ_DP_07H.studierende: MAS Doktoratsprogramm Szenografie HS 2007
+  DDE_FDE_MASSZ_DP_09F.studierende: MAS Doktoratsprogramm Szenografie FS 2009
+  DDE_FDE_MASSZ_DP_09H.studierende: MAS Doktoratsprogramm Szenografie HS 2009
+  DDE_FDE_MASSZ_DP_10F.studierende: MAS Doktoratsprogramm Szenografie FS 2010
+  DDE_FDE_MASSZ_DP_10H.studierende: MAS Doktoratsprogramm Szenografie HS 2010
+  DDE_FDE_MASTDT.alle: MAS in Type Design and Typography
+  DDE_FDE_MASTDT.dozierende: MAS in Type Design and Typography
+  DDE_FDE_MASTDT.studierende: MAS in Type Design and Typography
+  DDE_FDE_MASTDT_09H.studierende: MAS in Type Design/Typography HS 2009
+  DDE_FDE_MDE.alle: Master Design
+  DDE_FDE_MDE.dozierende: Master Design
+  DDE_FDE_MDE.mittelbau: Master Design
+  DDE_FDE_MDE.personal: Master Design
+  DDE_FDE_MDE.studierende: Master Design
+  DDE_FDE_MDE_09F.studierende: Master Design FS 09
+  DDE_FDE_MDE_10F.studierende: Master Design FS 10
+  DDE_FDE_MDE_11F.studierende: Master Design FS 11
+  DDE_FDE_MDE_VER.alle: Master Design - Vertiefung Ereignis
+  DDE_FDE_MDE_VER.studierende: Master Design - Vertiefung Ereignis
+  DDE_FDE_MDE_VER_12F.studierende: Master Design - Vertiefung Ereignis - FS 2012
+  DDE_FDE_MDE_VER_13F.studierende: Master Design - Vertiefung Ereignis - FS 2013
+  DDE_FDE_MDE_VIA.alle: Master Design - Vertiefung Interaktion
+  DDE_FDE_MDE_VIA.studierende: Master Design - Vertiefung Interaktion
+  DDE_FDE_MDE_VIA_12F.studierende: Master Design - Vertiefung Interaktion - FS 2012
+  DDE_FDE_MDE_VIA_13F.studierende: Master Design - Vertiefung Interaktion - FS 2013
+  DDE_FDE_MDE_VKK.alle: Master Design - Vertiefung Kommunikation
+  DDE_FDE_MDE_VKK.studierende: Master Design - Vertiefung Kommunikation
+  DDE_FDE_MDE_VKK_12F.studierende: Master Design - Vertiefung Kommunikation - FS 2012
+  DDE_FDE_MDE_VKK_13F.studierende: Master Design - Vertiefung Kommunikation - FS 2013
+  DDE_FDE_MDE_VPR.alle: Master Design - Vertiefung Produkt
+  DDE_FDE_MDE_VPR.studierende: Master Design - Vertiefung Produkt
+  DDE_FDE_MDE_VPR_12F.studierende: Master Design - Vertiefung Produkt - FS 2012
+  DDE_FDE_MDE_VPR_13F.studierende: Master Design - Vertiefung Produkt - FS 2013
+  DDE_FDE_MDE_VTR.alle: Master Design - Vertiefung Trends
+  DDE_FDE_MDE_VTR.studierende: Master Design - Vertiefung Trends
+  DDE_FDE_MDE_VTR_12F.studierende: Master Design - Vertiefung Trends - FS 2012
+  DDE_FDE_MDE_VTR_13F.studierende: Master Design - Vertiefung Trends - FS 2013
+  DDE_FDE_VCA.alle: Vertiefung Cast / Audiovisuelle Medien
+  DDE_FDE_VCA.dozierende: Vertiefung Cast / Audiovisuelle Medien
+  DDE_FDE_VCA.mittelbau: Vertiefung Cast / Audiovisuelle Medien
+  DDE_FDE_VCA.personal: Vertiefung Cast / Audiovisuelle Medien
+  DDE_FDE_VCA.studierende: Vertiefung Cast / Audiovisuelle Medien
+  DDE_FDE_VGD.alle: Vertiefung Game Design
+  DDE_FDE_VGD.dozierende: Vertiefung Game Design
+  DDE_FDE_VGD.mittelbau: Vertiefung Game Design
+  DDE_FDE_VGD.studierende: Vertiefung Game Design
+  DDE_FDE_VIAD.alle: Vertiefung Interaction Design
+  DDE_FDE_VIAD.dozierende: Vertiefung Interaction Design
+  DDE_FDE_VIAD.mittelbau: Vertiefung Interaction Design
+  DDE_FDE_VIAD.studierende: Vertiefung Interaction Design
+  DDE_FDE_VID.alle: Vertiefung Industrial Design
+  DDE_FDE_VID.dozierende: Vertiefung Industrial Design
+  DDE_FDE_VID.mittelbau: Vertiefung Industrial Design
+  DDE_FDE_VID.personal: Vertiefung Industrial Design
+  DDE_FDE_VID.studierende: Vertiefung Industrial Design
+  DDE_FDE_VSD.alle: Vertiefung Style&Design
+  DDE_FDE_VSD.dozierende: Vertiefung Style&Design
+  DDE_FDE_VSD.mittelbau: Vertiefung Style&Design
+  DDE_FDE_VSD.studierende: Vertiefung Style&Design
+  DDE_FDE_VSV.alle: Vertiefung Scientific Visualization
+  DDE_FDE_VSV.dozierende: Vertiefung Scientific Visualization
+  DDE_FDE_VSV.mittelbau: Vertiefung Scientific Visualization
+  DDE_FDE_VSV.studierende: Vertiefung Scientific Visualization
+  DDE_FDE_VVK.alle: Vertiefung Visuelle Kommunikation
+  DDE_FDE_VVK.dozierende: Vertiefung Visuelle Kommunikation
+  DDE_FDE_VVK.mittelbau: Vertiefung Visuelle Kommunikation
+  DDE_FDE_VVK.studierende: Vertiefung Visuelle Kommunikation
+  DDE_IDE.alle: Institut für Designforschung
+  DDE_IDE.dozierende: Institut für Designforschung
+  DDE_IDE.mittelbau: Institut für Designforschung
+  DDE_IDE.personal: Institut für Designforschung
+  DDE_IDT.alle: Institut für Design und Technologie
+  DDE_IDT.dozierende: Institut für Design und Technologie
+  DDE_IDT.mittelbau: Institut für Design und Technologie
+  DDK.alle: Departement Darstellende Künste und Film
+  DDK.dozierende: Departement Darstellende Künste und Film
+  DDK.mittelbau: Departement Darstellende Künste und Film
+  DDK.personal: Departement Darstellende Künste und Film
+  DDK.studierende: Departement Darstellende Künste und Film
+  DDK_CASSP_13F.studierende: CAS Stimmbildung / Sprechen FS 2013
+  DDK_FFI.alle: Fachrichtung Film
+  DDK_FFI.dozierende: Fachrichtung Film
+  DDK_FFI.mittelbau: Fachrichtung Film
+  DDK_FFI.personal: Fachrichtung Film
+  DDK_FFI.studierende: Fachrichtung Film
+  DDK_FFI_BFI.alle: Bachelor Film
+  DDK_FFI_BFI.dozierende: Bachelor Film
+  DDK_FFI_BFI.studierende: Bachelor Film
+  DDK_FFI_BFI_06W.studierende: Bachelor Film WS 2006
+  DDK_FFI_BFI_07H.studierende: Bachelor Film HS 2007
+  DDK_FFI_BFI_08H.studierende: Bachelor Film HS 2008
+  DDK_FFI_BFI_09H.studierende: Bachelor Film HS 2009
+  DDK_FFI_BFI_10H.studierende: Bachelor Film HS 2010
+  DDK_FFI_BFI_11H.studierende: Bachelor Film HS 2011
+  DDK_FFI_BFI_12H.studierende: Bachelor Film HS 2012
+  DDK_FFI_BFI_13H.studierende: Bachelor Film HS 2013
+  DDK_FFI_MFI.alle: Master Film
+  DDK_FFI_MFI.studierende: Master Film
+  DDK_FFI_MFI_08H.studierende: Master  Film HS 2008
+  DDK_FFI_MFI_10H.studierende: Master Film HS 2010
+  DDK_FFI_MFI_12H.studierende: Master Film HS 2012
+  DDK_FTA.alle: Fachrichtung Tanz
+  DDK_FTA.dozierende: Fachrichtung Tanz
+  DDK_FTA.mittelbau: Fachrichtung Tanz
+  DDK_FTA.personal: Fachrichtung Tanz
+  DDK_FTA.studierende: Fachrichtung Tanz
+  DDK_FTA_BTA.alle: Bachelor Tanz
+  DDK_FTA_BTA.dozierende: Bachelor Tanz
+  DDK_FTA_GBT.alle: Diplomstudium (DaP) Bühnentanz
+  DDK_FTA_GBT.studierende: Diplomstudium (DaP) Bühnentanz
+  DDK_FTA_GBT_all.studierende: Tanz Hauptstudium
+  DDK_FTA_MASTAP.alle: MAS Tanzpädagogik
+  DDK_FTA_MASTAP.studierende: MAS Tanzpädagogik
+  DDK_FTA_MASTAP_a_09H.studierende: MAS Tanzpädagogik - Klassisch Akademischer Tanz HS 2009
+  DDK_FTA_MASTAP_b_09H.studierende: MAS Tanzpädagogik - Modern / Zeitgenössisch HS 2009
+  DDK_FTA_XBT.alle: Bühnentanz EFZ
+  DDK_FTA_XBT.studierende: Bühnentanz EFZ
+  DDK_FTA_XBT_09H.studierende: Bühnentanz EFZ HS 2009
+  DDK_FTA_XBT_10H.studierende: Bühnentanz EFZ HS 2010
+  DDK_FTA_XBT_11H.studierende: Bühnentanz EFZ HS 2011
+  DDK_FTA_XBT_12H.studierende: Bühnentanz EFZ HS 2012
+  DDK_FTA_XBT_13H.studierende: Bühnentanz EFZ HS 2013
+  DDK_FTA_XGR.alle: Tanz - Grundstufe (12-15 Jahre)
+  DDK_FTA_XGR.studierende: Tanz - Grundstufe (12-15 Jahre)
+  DDK_FTA_XGR_10H.studierende: Tanz Grundstudium
+  DDK_FTA_XGR_11H.studierende: Tanz Grundstudium
+  DDK_FTA_XGR_12H.studierende: Tanz Grundstudium
+  DDK_FTA_XGR_13H.studierende: Tanz Grundstudium
+  DDK_FTA_XGR_all.studierende: Tanz Grundstudium
+  DDK_FTA_XVO.alle: Tanz - Vorstufe (9 - 11 Jahre)
+  DDK_FTA_XVO.studierende: Tanz - Vorstufe (9 - 11 Jahre)
+  DDK_FTA_XVO_11F.studierende: Tanz Vorstufe
+  DDK_FTA_XVO_11H.studierende: Tanz Vorstufe
+  DDK_FTA_XVO_12F.studierende: Tanz Vorstufe
+  DDK_FTA_XVO_12H.studierende: Tanz Vorstufe
+  DDK_FTA_XVO_13F.studierende: Tanz Vorstufe
+  DDK_FTA_XVO_13H.studierende: Tanz Vorstufe
+  DDK_FTA_XVO_all.studierende: Tanz Vorstufe
+  DDK_FTH.alle: Fachrichtung Theater
+  DDK_FTH.dozierende: Fachrichtung Theater
+  DDK_FTH.mittelbau: Fachrichtung Theater
+  DDK_FTH.personal: Fachrichtung Theater
+  DDK_FTH.studierende: Fachrichtung Theater
+  DDK_FTH_BTH.alle: Bachelor Theater
+  DDK_FTH_BTH.dozierende: Bachelor Theater
+  DDK_FTH_BTH.mittelbau: Bachelor Theater
+  DDK_FTH_BTH.personal: Bachelor Theater
+  DDK_FTH_BTH.studierende: Bachelor Theater
+  DDK_FTH_BTH_VDR.alle: Bachelor Theater - Vertiefung Dramaturgie
+  DDK_FTH_BTH_VDR.dozierende: Bachelor Theater - Vertiefung Dramaturgie
+  DDK_FTH_BTH_VDR.mittelbau: Bachelor Theater - Vertiefung Dramaturgie
+  DDK_FTH_BTH_VDR.studierende: Bachelor Theater - Vertiefung Dramaturgie
+  DDK_FTH_BTH_VDR_08H.studierende: Bachelor Theater - Vertiefung Dramaturgie HS 2008
+  DDK_FTH_BTH_VDR_09H.studierende: Bachelor Theater - Vertiefung Dramaturgie HS 2009
+  DDK_FTH_BTH_VDR_10H.studierende: Bachelor Theater - Vertiefung Dramaturgie - HS 2010
+  DDK_FTH_BTH_VDR_11H.studierende: Bachelor Theater - Vertiefung Dramaturgie - HS 2011
+  DDK_FTH_BTH_VDR_12H.studierende: Bachelor Theater - Vertiefung Dramaturgie - HS 2012
+  DDK_FTH_BTH_VDR_13H.studierende: Bachelor Theater - Vertiefung Dramaturgie - HS 2013
+  DDK_FTH_BTH_VRE.alle: Bachelor Theater - Vertiefung Regie
+  DDK_FTH_BTH_VRE.dozierende: Bachelor Theater - Vertiefung Regie
+  DDK_FTH_BTH_VRE.mittelbau: Bachelor Theater - Vertiefung Regie
+  DDK_FTH_BTH_VRE.studierende: Bachelor Theater - Vertiefung Regie
+  DDK_FTH_BTH_VRE_07H.studierende: Bachelor Theater - Vertiefung Regie HS 2007
+  DDK_FTH_BTH_VRE_08H.studierende: Bachelor Theater - Vertiefung Regie HS 2008
+  DDK_FTH_BTH_VRE_09H.studierende: Bachelor Theater - Vertiefung Regie HS 2009
+  DDK_FTH_BTH_VRE_10H.studierende: Bachelor Theater - Vertiefung Regie - HS 2010
+  DDK_FTH_BTH_VRE_11H.studierende: Bachelor Theater - Vertiefung Regie - HS 2011
+  DDK_FTH_BTH_VRE_12H.studierende: Bachelor Theater - Vertiefung Regie - HS 2012
+  DDK_FTH_BTH_VRE_13H.studierende: Bachelor Theater - Vertiefung Regie - HS 2013
+  DDK_FTH_BTH_VSC.alle: Bachelor Theater - Vertiefung Schauspiel
+  DDK_FTH_BTH_VSC.dozierende: Bachelor Theater - Vertiefung Schauspiel
+  DDK_FTH_BTH_VSC.mittelbau: Bachelor Theater - Vertiefung Schauspiel
+  DDK_FTH_BTH_VSC.personal: Bachelor Theater - Vertiefung Schauspiel
+  DDK_FTH_BTH_VSC.studierende: Bachelor Theater - Vertiefung Schauspiel
+  DDK_FTH_BTH_VSC_07H.studierende: Bachelor Theater - Vertiefung Schauspiel HS 2007
+  DDK_FTH_BTH_VSC_08H.studierende: Bachelor Theater - Vertiefung Schauspiel - HS 2008
+  DDK_FTH_BTH_VSC_09H.studierende: Bachelor Theater - Vertiefung Schauspiel - HS 2009
+  DDK_FTH_BTH_VSC_10H.studierende: Bachelor Theater - Vertiefung Schauspiel - HS 2010
+  DDK_FTH_BTH_VSC_11H.studierende: Bachelor Theater - Vertiefung Schauspiel - HS 2011
+  DDK_FTH_BTH_VSC_12H.studierende: Bachelor Theater - Vertiefung Schauspiel - HS 2012
+  DDK_FTH_BTH_VSC_13H.studierende: Bachelor Theater - Vertiefung Schauspiel - HS 2013
+  DDK_FTH_BTH_VSZ.alle: Bachelor Theater - Vertiefung Szenografie
+  DDK_FTH_BTH_VSZ.dozierende: Bachelor Theater - Vertiefung Szenografie
+  DDK_FTH_BTH_VSZ.mittelbau: Bachelor Theater - Vertiefung Szenografie
+  DDK_FTH_BTH_VSZ.personal: Bachelor Theater - Vertiefung Szenografie
+  DDK_FTH_BTH_VSZ.studierende: Bachelor Theater - Vertiefung Szenografie
+  DDK_FTH_BTH_VSZ_08H.studierende: Bachelor Theater - Vertiefung Szenografie HS 2008
+  DDK_FTH_BTH_VSZ_09H.studierende: Bachelor Theater - Vertiefung Szenografie HS 2009
+  DDK_FTH_BTH_VSZ_10H.studierende: Bachelor Theater - Vertiefung Szenografie HS 2010
+  DDK_FTH_BTH_VSZ_11H.studierende: Bachelor Theater - Vertiefung Szenografie - HS 2011
+  DDK_FTH_BTH_VSZ_12H.studierende: Bachelor Theater - Vertiefung Szenografie - HS 2012
+  DDK_FTH_BTH_VSZ_13H.studierende: Bachelor Theater - Vertiefung Szenografie - HS 2013
+  DDK_FTH_BTH_VTP.alle: Bachelor Theater - Vertiefung Theaterpädagogik
+  DDK_FTH_BTH_VTP.dozierende: Bachelor Theater - Vertiefung Theaterpädagogik
+  DDK_FTH_BTH_VTP.mittelbau: Bachelor Theater - Vertiefung Theaterpädagogik
+  DDK_FTH_BTH_VTP.studierende: Bachelor Theater - Vertiefung Theaterpädagogik
+  DDK_FTH_BTH_VTP_07H.studierende: Bachelor Theater - Vertiefung Theaterpädagogik HS 2007
+  DDK_FTH_BTH_VTP_08H.studierende: Bachelor Theater - Vertiefung Theaterpädagogik HS 2008
+  DDK_FTH_BTH_VTP_09H.studierende: Bachelor Theater - Vertiefung Theaterpädagogik - HS 2009
+  DDK_FTH_BTH_VTP_10H.studierende: Bachelor Theater - Vertiefung Theaterpädagogik - HS 2010
+  DDK_FTH_BTH_VTP_11H.studierende: Bachelor Theater - Vertiefung Theaterpädagogik - HS 2011
+  DDK_FTH_BTH_VTP_12H.studierende: Bachelor Theater - Vertiefung Theaterpädagogik - HS 2012
+  DDK_FTH_BTH_VTP_13H.studierende: Bachelor Theater - Vertiefung Theaterpädagogik - HS 2013
+  DDK_FTH_CASTP.alle: NDK / CAS Theaterpädagogik
+  DDK_FTH_CASTP.studierende: NDK / CAS Theaterpädagogik
+  DDK_FTH_MASTP.alle: MAS Theaterpädagogik
+  DDK_FTH_MASTP.studierende: MAS Theaterpädagogik
+  DDK_FTH_MASTP_08H.studierende: MAS Theaterpädagogik HS 2008
+  DDK_FTH_MASTP_09H.studierende: MAS Theaterpädagogik HS 2009
+  DDK_FTH_MASTP_10H.studierende: MAS Theaterpädagogik HS 2010
+  DDK_FTH_MASTP_11H.studierende: MAS Theaterpädagogik HS 2011
+  DDK_FTH_MASTP_12H.studierende: MAS Theaterpädagogik HS 2012
+  DDK_FTH_MASTP_13H.studierende: MAS Theaterpädagogik HS 2013
+  DDK_FTH_MTH.alle: Master Theater
+  DDK_FTH_MTH.dozierende: Master Theater
+  DDK_FTH_MTH.mittelbau: Master Theater
+  DDK_FTH_MTH.personal: Master Theater
+  DDK_FTH_MTH.studierende: Master Theater
+  DDK_FTH_MTH_VBN_09H.studierende: Master Theater - Vertiefung Bühnenbild 09H
+  DDK_FTH_MTH_VBN_10H.studierende: Master Theater - Vertiefung Bühnenbild - HS 2010
+  DDK_FTH_MTH_VLK.alle: Vertiefung Leitende Künstlerin / Leitender Künstler
+  DDK_FTH_MTH_VLK.dozierende: Vertiefung Leitende Künstlerin / Leitender Künstler
+  DDK_FTH_MTH_VLK.mittelbau: Vertiefung Leitende Künstlerin / Leitender Künstler
+  DDK_FTH_MTH_VLK.studierende: Vertiefung Leitende Künstlerin / Leitender Künstler
+  DDK_FTH_MTH_VLK_PBN.alle: Profil Bühnenbild
+  DDK_FTH_MTH_VLK_PBN.mittelbau: Profil Bühnenbild
+  DDK_FTH_MTH_VLK_PBN.studierende: Profil Bühnenbild
+  DDK_FTH_MTH_VLK_PBN_11H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Bühnenbild - HS 2011
+  DDK_FTH_MTH_VLK_PBN_12H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Bühnenbild - HS 2012
+  DDK_FTH_MTH_VLK_PBN_13H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Bühnenbild - HS 2013
+  DDK_FTH_MTH_VLK_PDR.alle: Profil Dramaturgie
+  DDK_FTH_MTH_VLK_PDR.studierende: Profil Dramaturgie
+  DDK_FTH_MTH_VLK_PDR_11H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Dramaturgie - HS 2011
+  DDK_FTH_MTH_VLK_PDR_12H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Dramaturgie - HS 2012
+  DDK_FTH_MTH_VLK_PDR_13H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Dramaturgie - HS 2013
+  DDK_FTH_MTH_VLK_PRE.alle: Profil Regie
+  DDK_FTH_MTH_VLK_PRE.dozierende: Profil Regie
+  DDK_FTH_MTH_VLK_PRE.studierende: Profil Regie
+  DDK_FTH_MTH_VLK_PRE_11H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Regie - HS 2011
+  DDK_FTH_MTH_VLK_PRE_12H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Regie - HS 2012
+  DDK_FTH_MTH_VLK_PRE_13H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Regie - HS 2013
+  DDK_FTH_MTH_VLK_PTP.alle: ProfilTheaterpädagogik
+  DDK_FTH_MTH_VLK_PTP.dozierende: ProfilTheaterpädagogik
+  DDK_FTH_MTH_VLK_PTP.mittelbau: ProfilTheaterpädagogik
+  DDK_FTH_MTH_VLK_PTP.studierende: ProfilTheaterpädagogik
+  DDK_FTH_MTH_VLK_PTP_11H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Theaterpädagogik - HS 2011
+  DDK_FTH_MTH_VLK_PTP_12H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Theaterpädagogik - HS 2012
+  DDK_FTH_MTH_VLK_PTP_13H.studierende: Master Theater - Vertiefung Leitende Künstlerin / Leitender Künstler - Profil Theaterpädagogik - HS 2013
+  DDK_FTH_MTH_VRE_08H.studierende: Master Theater - Vertiefung Regie 08H
+  DDK_FTH_MTH_VRE_09H.studierende: Master Theater - Vertiefung Regie 09H
+  DDK_FTH_MTH_VRE_10H.studierende: Master Theater - Vertiefung Regie - HS 2010
+  DDK_FTH_MTH_VSC.alle: Vertiefung Schauspiel
+  DDK_FTH_MTH_VSC.dozierende: Vertiefung Schauspiel
+  DDK_FTH_MTH_VSC.personal: Vertiefung Schauspiel
+  DDK_FTH_MTH_VSC.studierende: Vertiefung Schauspiel
+  DDK_FTH_MTH_VSC_08H.studierende: Master Theater - Vertiefung Schauspiel - 08H
+  DDK_FTH_MTH_VSC_09H.studierende: Master Theater - Vertiefung Schauspiel - 09H
+  DDK_FTH_MTH_VSC_10H.studierende: Master Theater - Vertiefung Schauspiel - HS 2010
+  DDK_FTH_MTH_VSC_11H.studierende: Master Theater - Vertiefung Schauspiel - HS 2011
+  DDK_FTH_MTH_VSC_12H.studierende: Master Theater - Vertiefung Schauspiel - HS 2012
+  DDK_FTH_MTH_VSC_13H.studierende: Master Theater - Vertiefung Schauspiel - HS 2013
+  DDK_FTH_MTH_VTP_09H.studierende: Master Theater - Vertiefung Theaterpädagogik - 09H
+  DDK_FTH_MTH_VTP_10H.studierende: Master Theater - Vertiefung Theaterpädagogik - 10H
+  DDK_FTH_VDR.alle: Dramaturgie
+  DDK_FTH_VDR.studierende: Dramaturgie
+  DDK_FTH_VRE.alle: Regie
+  DDK_FTH_VRE.studierende: Regie
+  DDK_FTH_VSC.alle: Schauspiel
+  DDK_FTH_VSC.studierende: Schauspiel
+  DDK_FTH_VTP.alle: Theaterpädagogik
+  DDK_FTH_VTP.studierende: Theaterpädagogik
+  DDK_IPF.alle: Institute for the Performing Arts and Film
+  DDK_IPF.dozierende: Institute for the Performing Arts and Film
+  DDK_IPF.mittelbau: Institute for the Performing Arts and Film
+  DDK_IPF.personal: Institute for the Performing Arts and Film
+  DKM.alle: Departement Kunst und Medien
+  DKM.dozierende: Departement Kunst und Medien
+  DKM.mittelbau: Departement Kunst und Medien
+  DKM.personal: Departement Kunst und Medien
+  DKM.studierende: Departement Kunst und Medien
+  DKM_FMK.alle: Fachrichtung Medien & Kunst
+  DKM_FMK.dozierende: Fachrichtung Medien & Kunst
+  DKM_FMK.mittelbau: Fachrichtung Medien & Kunst
+  DKM_FMK.personal: Fachrichtung Medien & Kunst
+  DKM_FMK.studierende: Fachrichtung Medien & Kunst
+  DKM_FMK_BMK.alle: Bachelor Medien & Kunst
+  DKM_FMK_BMK.dozierende: Bachelor Medien & Kunst
+  DKM_FMK_BMK.studierende: Bachelor Medien & Kunst
+  DKM_FMK_BMK_Austausch_10F.studierende: Bachelor Medien & Kunst 10F
+  DKM_FMK_BMK_Austausch_10H.studierende: Bachelor Medien & Kunst 10H
+  DKM_FMK_BMK_Austausch_11F.studierende: Bachelor Medien & Kunst 11F
+  DKM_FMK_BMK_Austausch_11H.studierende: Bachelor Medien & Kunst 11H
+  DKM_FMK_BMK_Austausch_13H.studierende: Bachelor Medien & Kunst HS 2013
+  DKM_FMK_BMK_VBK.alle: Vertiefung Bildende Kunst
+  DKM_FMK_BMK_VBK.studierende: Vertiefung Bildende Kunst
+  DKM_FMK_BMK_VBK_07H.studierende: Bachelor Medien & Kunst - Vertiefung Bildende Kunst - HS 2007
+  DKM_FMK_BMK_VBK_08H.studierende: Bachelor Medien & Kunst - Vertiefung Bildende Kunst - HS 2008
+  DKM_FMK_BMK_VBK_09H.studierende: Bachelor Medien & Kunst - Vertiefung Bildende Kunst - HS 2009
+  DKM_FMK_BMK_VBK_10H.studierende: Bachelor Medien & Kunst - Vertiefung Bildende Kunst - HS 2010
+  DKM_FMK_BMK_VBK_11H.studierende: Bachelor Medien & Kunst - Vertiefung Bildende Kunst - HS 2011
+  DKM_FMK_BMK_VBK_12H.studierende: Bachelor Medien & Kunst - Vertiefung Bildende Kunst - HS 2012
+  DKM_FMK_BMK_VBK_13H.studierende: Bachelor Medien & Kunst - Vertiefung Bildende Kunst - HS 2013
+  DKM_FMK_BMK_VFO.alle: Vertiefung Fotografie
+  DKM_FMK_BMK_VFO.studierende: Vertiefung Fotografie
+  DKM_FMK_BMK_VFO_06W.studierende: Bachelor Medien & Kunst - Vertiefung Fotografie - WS 2006
+  DKM_FMK_BMK_VFO_07H.studierende: Bachelor Medien & Kunst - Vertiefung Fotografie - HS 2007
+  DKM_FMK_BMK_VFO_08H.studierende: Bachelor Medien & Kunst - Vertiefung Fotografie - HS 2008
+  DKM_FMK_BMK_VFO_09H.studierende: Bachelor Medien & Kunst - Vertiefung Fotografie - HS 2009
+  DKM_FMK_BMK_VFO_10H.studierende: Bachelor Medien & Kunst - Vertiefung Fotografie - HS 2010
+  DKM_FMK_BMK_VFO_11H.studierende: Bachelor Medien & Kunst - Vertiefung Fotografie - HS 2011
+  DKM_FMK_BMK_VFO_12H.studierende: Bachelor Medien & Kunst - Vertiefung Fotografie - HS 2012
+  DKM_FMK_BMK_VFO_13H.studierende: Bachelor Medien & Kunst - Vertiefung Fotografie - HS 2013
+  DKM_FMK_BMK_VMK.alle: Vertiefung Mediale Künste
+  DKM_FMK_BMK_VMK.studierende: Vertiefung Mediale Künste
+  DKM_FMK_BMK_VMK_07H.studierende: Bachelor Medien & Kunst - Vertiefung Mediale Künste - HS 2007
+  DKM_FMK_BMK_VMK_08H.studierende: Bachelor Medien & Kunst - Vertiefung Mediale Künste - HS 2008
+  DKM_FMK_BMK_VMK_09H.studierende: Bachelor Medien & Kunst - Vertiefung Mediale Künste - HS 2009
+  DKM_FMK_BMK_VMK_10H.studierende: Bachelor Medien & Kunst - Vertiefung Mediale Künste - HS 2010
+  DKM_FMK_BMK_VMK_11H.studierende: Bachelor Medien & Kunst - Vertiefung Mediale Künste - HS 2011
+  DKM_FMK_BMK_VMK_12H.studierende: Bachelor Medien & Kunst - Vertiefung Mediale Künste - HS 2012
+  DKM_FMK_BMK_VMK_13H.studierende: Bachelor Medien & Kunst - Vertiefung Mediale Künste - HS 2013
+  DKM_FMK_BMK_VTH.alle: Vertiefung Theorie - Studien zur Medien-, Kunst- und Designpraxis
+  DKM_FMK_BMK_VTH.studierende: Vertiefung Theorie - Studien zur Medien-, Kunst- und Designpraxis
+  DKM_FMK_BMK_VTH_07H.studierende: Bachelor Medien & Kunst - Vertiefung Theorie - HS 2007
+  DKM_FMK_BMK_VTH_08H.studierende: Bachelor Medien & Kunst - Vertiefung Theorie - HS 2008
+  DKM_FMK_BMK_VTH_09H.studierende: Bachelor Medien & Kunst - Vertiefung Theorie - HS 2009
+  DKM_FMK_BMK_VTH_10H.studierende: Bachelor Medien & Kunst - Vertiefung Theorie - HS 2010
+  DKM_FMK_BMK_VTH_11H.studierende: Bachelor Medien & Kunst - Vertiefung Theorie - HS 2011
+  DKM_FMK_BMK_VTH_12H.studierende: Bachelor Medien & Kunst - Vertiefung Theorie - HS 2012
+  DKM_FMK_BMK_VTH_13H.studierende: Bachelor Medien & Kunst - Vertiefung Theorie - HS 2013
+  DKM_FMK_MAF.alle: Master Fine Arts
+  DKM_FMK_MAF.dozierende: Master Fine Arts
+  DKM_FMK_MAF.mittelbau: Master Fine Arts
+  DKM_FMK_MAF.personal: Master Fine Arts
+  DKM_FMK_MAF.studierende: Master Fine Arts
+  DKM_FMK_MAF_08H.studierende: Master Fine Arts 08H
+  DKM_FMK_MAF_09H.studierende: Master Fine Arts 09H
+  DKM_FMK_MAF_10H.studierende: Master Fine Arts HS 2010
+  DKM_FMK_MAF_11H.studierende: Master Fine Arts HS 2011
+  DKM_FMK_MAF_12H.studierende: Master Fine Arts HS 2012
+  DKM_FMK_MAF_13H.studierende: Master Fine Arts HS 2013
+  DKM_FMK_VBK.alle: Vertiefung Bildende Kunst
+  DKM_FMK_VBK.dozierende: Vertiefung Bildende Kunst
+  DKM_FMK_VBK.mittelbau: Vertiefung Bildende Kunst
+  DKM_FMK_VBK.personal: Vertiefung Bildende Kunst
+  DKM_FMK_VBK.studierende: Vertiefung Bildende Kunst
+  DKM_FMK_VFO.alle: Vertiefung Fotografie
+  DKM_FMK_VFO.dozierende: Vertiefung Fotografie
+  DKM_FMK_VFO.mittelbau: Vertiefung Fotografie
+  DKM_FMK_VFO.personal: Vertiefung Fotografie
+  DKM_FMK_VFO.studierende: Vertiefung Fotografie
+  DKM_FMK_VMK.alle: Vertiefung Mediale Künste
+  DKM_FMK_VMK.dozierende: Vertiefung Mediale Künste
+  DKM_FMK_VMK.mittelbau: Vertiefung Mediale Künste
+  DKM_FMK_VMK.personal: Vertiefung Mediale Künste
+  DKM_FMK_VMK.studierende: Vertiefung Mediale Künste
+  DKM_FMK_VTH.alle: Vertiefung Theorie - Studien zur Medien-, Kunst- und Designpraxis
+  DKM_FMK_VTH.dozierende: Vertiefung Theorie - Studien zur Medien-, Kunst- und Designpraxis
+  DKM_FMK_VTH.mittelbau: Vertiefung Theorie - Studien zur Medien-, Kunst- und Designpraxis
+  DKM_FMK_VTH.personal: Vertiefung Theorie - Studien zur Medien-, Kunst- und Designpraxis
+  DKM_FMK_VTH.studierende: Vertiefung Theorie - Studien zur Medien-, Kunst- und Designpraxis
+  DKM_IFCAR.alle: Institut für Gegenwartskunst
+  DKM_IFCAR.dozierende: Institut für Gegenwartskunst
+  DKM_IFCAR.mittelbau: Institut für Gegenwartskunst
+  DKM_IFCAR.personal: Institut für Gegenwartskunst
+  DKM_PHD_12F.studierende: PHD
+  DKV.alle: Departement Kulturanalysen und Vermittlung
+  DKV.dozierende: Departement Kulturanalysen und Vermittlung
+  DKV.mittelbau: Departement Kulturanalysen und Vermittlung
+  DKV.personal: Departement Kulturanalysen und Vermittlung
+  DKV.studierende: Departement Kulturanalysen und Vermittlung
+  DKV_CASBKGa_13H.studierende: CAS Forschung zu künstlerischen Bildungsprojekten BKG HS 2013
+  DKV_CASCMS_13H.studierende: CAS Cultural Media Studies HS 2013
+  DKV_CASCUR_13H.studierende: CAS Curating HS 2013
+  DKV_FAE.alle: Fachrichtung Art Education
+  DKV_FAE.dozierende: Fachrichtung Art Education
+  DKV_FAE.mittelbau: Fachrichtung Art Education
+  DKV_FAE.personal: Fachrichtung Art Education
+  DKV_FAE.studierende: Fachrichtung Art Education
+  DKV_FAE_BAE.alle: Bachelor Vermittlung von Kunst und Design
+  DKV_FAE_BAE.dozierende: Bachelor Vermittlung von Kunst und Design
+  DKV_FAE_BAE.mittelbau: Bachelor Vermittlung von Kunst und Design
+  DKV_FAE_BAE.studierende: Bachelor Vermittlung von Kunst und Design
+  DKV_FAE_BAE_08H.studierende: Bachelor Vermittlung von Kunst und Design HS 2008
+  DKV_FAE_BAE_VAS.alle: Vertiefung Ästhetische Bildung und Soziokultur
+  DKV_FAE_BAE_VAS.studierende: Vertiefung Ästhetische Bildung und Soziokultur
+  DKV_FAE_BAE_VAS_09H.studierende: Bachelor Vermittlung von Kunst und Design -  Ästhetische Bildung und Soziokultur - HS 2009
+  DKV_FAE_BAE_VAS_10H.studierende: Bachelor Vermittlung von Kunst und Design -  Ästhetische Bildung und Soziokultur - HS 2010
+  DKV_FAE_BAE_VAS_11H.studierende: Bachelor Vermittlung von Kunst und Design -  Ästhetische Bildung und Soziokultur - HS 2011
+  DKV_FAE_BAE_VAS_12H.studierende: Bachelor Vermittlung von Kunst und Design -  Ästhetische Bildung und Soziokultur - HS 2012
+  DKV_FAE_BAE_VAS_13H.studierende: Bachelor Vermittlung von Kunst und Design -  Ästhetische Bildung und Soziokultur - HS 2013
+  DKV_FAE_BAE_VBG.alle: Vertiefung Bildnerisches Gestalten an Maturitätsschulen
+  DKV_FAE_BAE_VBG.studierende: Vertiefung Bildnerisches Gestalten an Maturitätsschulen
+  DKV_FAE_BAE_VBG_09H.studierende: Bachelor Vermittlung von Kunst und Design - Bildnerisches Gestalten an Maturitätsschulen - HS 2009
+  DKV_FAE_BAE_VBG_10H.studierende: Bachelor Vermittlung von Kunst und Design - Bildnerisches Gestalten an Maturitätsschulen - HS 2010
+  DKV_FAE_BAE_VBG_11H.studierende: Bachelor Vermittlung von Kunst und Design - Bildnerisches Gestalten an Maturitätsschulen - HS 2011
+  DKV_FAE_BAE_VBG_12H.studierende: Bachelor Vermittlung von Kunst und Design - Bildnerisches Gestalten an Maturitätsschulen - HS 2012
+  DKV_FAE_BAE_VBG_13H.studierende: Bachelor Vermittlung von Kunst und Design - Bildnerisches Gestalten an Maturitätsschulen - HS 2013
+  DKV_FAE_BAE_c_05W.studierende: Bachelor Vermittlung von Kunst und Design WS 2005 c
+  DKV_FAE_BAE_c_07H.studierende: Bachelor Vermittlung von Kunst und Design HS 2007 c
+  DKV_FAE_GVE.alle: Diplomstudium (DaP) Lehrberufe für Gestaltung und Kunst
+  DKV_FAE_GVE.studierende: Diplomstudium (DaP) Lehrberufe für Gestaltung und Kunst
+  DKV_FAE_GVE_LGK_MB_04W.studierende: Lehrberufe für Gestaltung und Kunst MB WS 2004
+  DKV_FAE_MAE.alle: Master in Art Education
+  DKV_FAE_MAE.dozierende: Master in Art Education
+  DKV_FAE_MAE.mittelbau: Master in Art Education
+  DKV_FAE_MAE.studierende: Master in Art Education
+  DKV_FAE_MAE_VAV_08H.studierende: Master Art Education - Vertiefung ausstellen & vermitteln 08H
+  DKV_FAE_MAE_VAV_09H.studierende: Master Art Education - Vertiefung ausstellen & vermitteln - HS 2009
+  DKV_FAE_MAE_VAV_10H.studierende: Master Art Education - Vertiefung ausstellen & vermitteln 10H
+  DKV_FAE_MAE_VAV_11H.studierende: Master Art Education - Vertiefung ausstellen & vermitteln - HS 2011
+  DKV_FAE_MAE_VAV_12H.studierende: Master Art Education - Vertiefung ausstellen & vermitteln - HS 2012
+  DKV_FAE_MAE_VAV_13H.studierende: Master Art Education - Vertiefung ausstellen & vermitteln - HS 2013
+  DKV_FAE_MAE_VBV_08H.studierende: Master Art Education - Vertiefung bilden & vermitteln 08H
+  DKV_FAE_MAE_VBV_09H.studierende: Master Art Education - Vertiefung bilden & vermitteln 09H
+  DKV_FAE_MAE_VBV_10H.studierende: Master Art Education - Vertiefung bilden & vermitteln - HS 2010
+  DKV_FAE_MAE_VBV_11H.studierende: Master Art Education - Vertiefung bilden & vermitteln - HS 2011
+  DKV_FAE_MAE_VBV_12H.studierende: Master Art Education - Vertiefung bilden & vermitteln - HS 2012
+  DKV_FAE_MAE_VBV_13H.studierende: Master Art Education - Vertiefung bilden & vermitteln - HS 2013
+  DKV_FAE_MAE_VBV_SEB_09H.studierende: Master Art Education - Vertiefung bilden & vermitteln - Schwerpunkt Erwachsenenbildung 09H
+  DKV_FAE_MAE_VBV_SEB_10H.studierende: Master Art Education - Vertiefung bilden & vermitteln - Schwerpunkt Erwachsenenbildung - HS 2010
+  DKV_FAE_MAE_VPV_08H.studierende: Master Art Education - Vertiefung publizieren & vermitteln - 08H
+  DKV_FAE_MAE_VPV_09H.studierende: Master Art Education - Vertiefung publizieren & vermitteln - 09H
+  DKV_FAE_MAE_VPV_10H.studierende: Master Art Education - Vertiefung publizieren & vermitteln - HS 2010
+  DKV_FAE_MAE_VPV_11H.studierende: Master Art Education - Vertiefung publizieren & vermitteln - HS 2011
+  DKV_FAE_MAE_VPV_12H.studierende: Master Art Education - Vertiefung publizieren & vermitteln - HS 2012
+  DKV_FAE_MAE_VPV_13H.studierende: Master Art Education - Vertiefung publizieren & vermitteln - HS 2013
+  DKV_FSPTR.alle: FSP Transdisziplinarität
+  DKV_FSPTR.dozierende: FSP Transdisziplinarität
+  DKV_FSPTR.mittelbau: FSP Transdisziplinarität
+  DKV_FTR.alle: Fachrichtung Transdisziplinarität
+  DKV_FTR.dozierende: Fachrichtung Transdisziplinarität
+  DKV_FTR.mittelbau: Fachrichtung Transdisziplinarität
+  DKV_FTR.personal: Fachrichtung Transdisziplinarität
+  DKV_FTR.studierende: Fachrichtung Transdisziplinarität
+  DKV_FTR_MTR.alle: Master in Transdisziplinarität
+  DKV_FTR_MTR.dozierende: Master in Transdisziplinarität
+  DKV_FTR_MTR.mittelbau: Master in Transdisziplinarität
+  DKV_FTR_MTR.personal: Master in Transdisziplinarität
+  DKV_FTR_MTR.studierende: Master in Transdisziplinarität
+  DKV_FTR_MTR_09F.studierende: Master of Arts in Transdisziplinarität 09F
+  DKV_FTR_MTR_10H.studierende: Master of Arts in Transdisziplinarität HS 2010
+  DKV_FTR_MTR_12F.studierende: Master of Arts in Transdisziplinarität FS 2012
+  DKV_FTR_MTR_12H.studierende: Master of Arts in Transdisziplinarität HS 2012
+  DKV_FTR_MTR_13H.studierende: Master of Arts in Transdisziplinarität HS 2013
+  DKV_FTR_ZMO.alle: Z-Module
+  DKV_FTR_ZMO.dozierende: Z-Module
+  DKV_FTR_ZMO.mittelbau: Z-Module
+  DKV_FTR_ZMO.personal: Z-Module
+  DKV_IAE.alle: Institute for Art Education
+  DKV_IAE.dozierende: Institute for Art Education
+  DKV_IAE.mittelbau: Institute for Art Education
+  DKV_ICS.alle: Institute for Cultural Studies in the Arts
+  DKV_ICS.dozierende: Institute for Cultural Studies in the Arts
+  DKV_ICS.mittelbau: Institute for Cultural Studies in the Arts
+  DKV_ICS.personal: Institute for Cultural Studies in the Arts
+  DKV_ITH.alle: Institut für Theorie
+  DKV_ITH.dozierende: Institut für Theorie
+  DKV_ITH.mittelbau: Institut für Theorie
+  DKV_ITH.personal: Institut für Theorie
+  DKV_MASBKG.alle: MAS Bilden Künste Gesellschaft
+  DKV_MASBKG.studierende: MAS Bilden Künste Gesellschaft
+  DKV_MASBKG_08H.studierende: MAS Bilden Künste Gesellschaft HS 2008
+  DKV_MASBKG_09H.studierende: MAS Bilden Künste Gesellschaft HS 2009
+  DKV_MASBKG_11H.studierende: MAS Bilden Künste Gesellschaft HS 2011
+  DKV_MASBKG_13H.studierende: MAS Bilden Künste Gesellschaft HS 2013
+  DKV_MASCMS.alle: MAS Cultural Media Studies
+  DKV_MASCMS.dozierende: MAS Cultural Media Studies
+  DKV_MASCMS.studierende: MAS Cultural Media Studies
+  DKV_MASCMS_10F.studierende: MAS Cultural Media Studies FS 2010
+  DKV_MASCUR.alle: MAS Curating
+  DKV_MASCUR.dozierende: MAS Curating
+  DKV_MASCUR.mittelbau: MAS Curating
+  DKV_MASCUR.studierende: MAS Curating
+  DKV_MASCUR_08H.studierende: MAS Curating HS 2008
+  DKV_MASCUR_09H.studierende: MAS Curating HS 2009
+  DKV_MASCUR_10H.studierende: MAS Curating HS 2010
+  DKV_MASCUR_11H.studierende: MAS Curating HS 2011
+  DKV_MASCUR_12H.studierende: MAS Curating HS 2012
+  DKV_MASCUR_13H.studierende: MAS Curating HS 2013
+  DKV_Museum.alle: Museum
+  DKV_Museum.mittelbau: Museum
+  DKV_Museum.personal: Museum
+  DKV_Museum_Au60.alle: Museum Au60
+  DKV_Museum_Au60.mittelbau: Museum Au60
+  DKV_Museum_Au60.personal: Museum Au60
+  DKV_Museum_Bellerive.alle: Fachbereich Museum Bellerive
+  DKV_Museum_Bellerive.mittelbau: Fachbereich Museum Bellerive
+  DKV_Museum_Bellerive.personal: Fachbereich Museum Bellerive
+  DKV_PHD_13F.studierende: Z-Node
+  DKV_Sammlungen.alle: Sammlungen
+  DKV_Sammlungen.mittelbau: Sammlungen
+  DKV_Sammlungen.personal: Sammlungen
+  DKV_WB.alle: Supportzentrum Weiterbildung
+  DKV_WB.dozierende: Supportzentrum Weiterbildung
+  DKV_WB.mittelbau: Supportzentrum Weiterbildung
+  DKV_WB.personal: Supportzentrum Weiterbildung
+  DKV_XAPM_13H.studierende: Atelierprogramm Migros Herdern
+  DKV_XPP_XGO.alle: Propädeutikum - Gestalterische Orientierungsstufe
+  DKV_XPP_XGO.dozierende: Propädeutikum - Gestalterische Orientierungsstufe
+  DKV_XPP_XGO.personal: Propädeutikum - Gestalterische Orientierungsstufe
+  DKV_XPP_XGO.studierende: Propädeutikum - Gestalterische Orientierungsstufe
+  DKV_XPP_XGO_T_09H.studierende: Propädeutikum - Gestalterische Orientierungsstufe Teilzeit HS 2009
+  DKV_XPP_XGO_T_10H.studierende: Propädeutikum - Gestalterische Orientierungsstufe Teilzeit HS 2010
+  DKV_XPP_XGO_T_11H.studierende: Propädeutikum - Gestalterische Orientierungsstufe Teilzeit HS 2011
+  DKV_XPP_XGO_T_12H.studierende: Propädeutikum - Gestalterische Orientierungsstufe Teilzeit HS 2012
+  DKV_XPP_XGO_T_13H.studierende: Propädeutikum - Gestalterische Orientierungsstufe Teilzeit HS 2013
+  DKV_XPP_XGO_V_10F.studierende: Propädeutikum - Gestalterische Orientierungsstufe Vollzeit FS 2010
+  DKV_XPP_XGO_V_10H.studierende: Propädeutikum - Gestalterische Orientierungsstufe Vollzeit HS 2010
+  DKV_XPP_XGO_V_11F.studierende: Propädeutikum - Gestalterische Orientierungsstufe Vollzeit FS 2011
+  DKV_XPP_XGO_V_11H.studierende: Propädeutikum - Gestalterische Orientierungsstufe Vollzeit HS 2011
+  DKV_XPP_XGO_V_13F.studierende: Propädeutikum - Gestalterische Orientierungsstufe Vollzeit FS 2013
+  DKV_XPP_XGO_V_13H.studierende: Propädeutikum - Gestalterische Orientierungsstufe Vollzeit HS 2013
+  DKV_ZKR.alle: Zentrum für Kulturrecht
+  DKV_ZKR.dozierende: Zentrum für Kulturrecht
+  DKV_ZKR.mittelbau: Zentrum für Kulturrecht
+  DMU.alle: Departement Musik
+  DMU.dozierende: Departement Musik
+  DMU.mittelbau: Departement Musik
+  DMU.personal: Departement Musik
+  DMU.studierende: Departement Musik
+  DMU_FMU.alle: Fachrichtung Musik
+  DMU_FMU.dozierende: Fachrichtung Musik
+  DMU_FMU.mittelbau: Fachrichtung Musik
+  DMU_FMU.personal: Fachrichtung Musik
+  DMU_FMU.studierende: Fachrichtung Musik
+  DMU_FMU_Austausch_09H.studierende: Musik Austausch 09H
+  DMU_FMU_Austausch_10H.studierende: Musik Austausch 10H
+  DMU_FMU_Austausch_11H.studierende: Musik Austausch 11H
+  DMU_FMU_Austausch_12H.studierende: Musik Austausch HS 2012
+  DMU_FMU_Austausch_13H.studierende: Musik Austausch HS 2013
+  DMU_FMU_BMB.alle: Bachelor Musik und Bewegung
+  DMU_FMU_BMB.studierende: Bachelor Musik und Bewegung
+  DMU_FMU_BMB_07H.studierende: Bachelor Musik und Bewegung HS 2007
+  DMU_FMU_BMB_08H.studierende: Bachelor Musik und Bewegung HS 2008
+  DMU_FMU_BMB_09H.studierende: Bachelor Musik und Bewegung HS 2009
+  DMU_FMU_BMB_10H.studierende: Bachelor Musik und Bewegung HS 2010
+  DMU_FMU_BMB_11H.studierende: Bachelor Musik und Bewegung HS 2011
+  DMU_FMU_BMB_12H.studierende: Bachelor Musik und Bewegung HS 2012
+  DMU_FMU_BMB_13H.studierende: Bachelor Musik und Bewegung HS 2013
+  DMU_FMU_BMU.alle: Bachelor Musik
+  DMU_FMU_BMU.studierende: Bachelor Musik
+  DMU_FMU_BMU_VDI_SOL_08H.studierende: Bachelor Musik - Dirigieren - Orchesterleitung 08H
+  DMU_FMU_BMU_VDI_SOL_10H.studierende: Bachelor Musik - Dirigieren - Orchesterleitung - HS 2010
+  DMU_FMU_BMU_VDI_SOL_11H.studierende: Bachelor Musik - Dirigieren - Orchesterleitung - HS 2011
+  DMU_FMU_BMU_VDI_SOL_13H.studierende: Bachelor Musik - Dirigieren - Orchesterleitung - HS 2013
+  DMU_FMU_BMU_VIG_SJAZ_08H.studierende: Bachelor Musik - Instrument/Gesang - Jazz HS 2008
+  DMU_FMU_BMU_VIG_SJAZ_09H.studierende: Bachelor Musik - Instrument/Gesang - Jazz HS 2009
+  DMU_FMU_BMU_VIG_SJAZ_10H.studierende: Bachelor Musik - Instrument/Gesang - Jazz - HS 2010
+  DMU_FMU_BMU_VIG_SJAZ_11H.studierende: Bachelor Musik - Instrument/Gesang - Jazz - HS 2011
+  DMU_FMU_BMU_VIG_SJAZ_12H.studierende: Bachelor Musik - Instrument/Gesang - Jazz - HS 2012
+  DMU_FMU_BMU_VIG_SJAZ_13H.studierende: Bachelor Musik - Instrument/Gesang - Jazz - HS 2013
+  DMU_FMU_BMU_VIG_SKLA_07H.studierende: Bachelor Musik - Instrument/Gesang - Klassik HS 2007
+  DMU_FMU_BMU_VIG_SKLA_08H.studierende: Bachelor Musik - Instrument/Gesang - Klassik HS 2008
+  DMU_FMU_BMU_VIG_SKLA_09H.studierende: Bachelor Musik - Instrument/Gesang - Klassik HS 2009
+  DMU_FMU_BMU_VIG_SKLA_10H.studierende: Bachelor Musik - Instrument/Gesang - Klassik - HS 2010
+  DMU_FMU_BMU_VIG_SKLA_11H.studierende: Bachelor Musik - Instrument/Gesang - Klassik - HS 2011
+  DMU_FMU_BMU_VIG_SKLA_12H.studierende: Bachelor Musik - Instrument/Gesang - Klassik - HS 2012
+  DMU_FMU_BMU_VIG_SKLA_13H.studierende: Bachelor Musik - Instrument/Gesang - Klassik - HS 2013
+  DMU_FMU_BMU_VIG_SPOP_08H.studierende: Bachelor Musik - Instrument/Gesang - Pop HS 2008
+  DMU_FMU_BMU_VIG_SPOP_09H.studierende: Bachelor Musik - Instrument/Gesang - Pop HS 2009
+  DMU_FMU_BMU_VIG_SPOP_10H.studierende: Bachelor Musik - Instrument/Gesang - Pop - HS 2010
+  DMU_FMU_BMU_VIG_SPOP_11H.studierende: Bachelor Musik - Instrument/Gesang - Pop - HS 2011
+  DMU_FMU_BMU_VIG_SPOP_12H.studierende: Bachelor Musik - Instrument/Gesang - Pop - HS 2012
+  DMU_FMU_BMU_VIG_SPOP_13H.studierende: Bachelor Musik - Instrument/Gesang - Pop - HS 2013
+  DMU_FMU_BMU_VKM_SCH_08H.studierende: Bachelor Musik - Kirchenmusik - Chorleitung geistlich HS 2008
+  DMU_FMU_BMU_VKM_SCH_10H.studierende: Bachelor Musik - Kirchenmusik - Chorleitung geistlich HS 2010
+  DMU_FMU_BMU_VKM_SCH_11H.studierende: Bachelor Musik - Kirchenmusik - Chorleitung geistlich - HS 2011
+  DMU_FMU_BMU_VKM_SCH_13H.studierende: Bachelor Musik - Kirchenmusik - Chorleitung geistlich - HS 2013
+  DMU_FMU_BMU_VKM_SOCH_09H.studierende: Bachelor Musik - Kirchenmusik - Orgel und Chorleitung geistlich HS 2009
+  DMU_FMU_BMU_VKM_SOCH_10H.studierende: Bachelor Musik - Kirchenmusik - Orgel und Chorleitung geistlich - HS 2010
+  DMU_FMU_BMU_VKM_SOG_08H.studierende: Bachelor Musik - Kirchenmusik - Orgel HS 2008
+  DMU_FMU_BMU_VKOT_SEAK_10H.studierende: Bachelor Musik - Komposition und Musiktheorie - Elektroakustische Komposition - HS 2010
+  DMU_FMU_BMU_VKOT_SFTM_08H.studierende: Bachelor Musik - Komposition und Musiktheorie - Komposition für Film, Theater und Medien HS 2008
+  DMU_FMU_BMU_VKOT_SFTM_09H.studierende: Bachelor Musik - Komposition und Musiktheorie - Komposition für Film, Theater und Medien HS 2009
+  DMU_FMU_BMU_VKOT_SFTM_10H.studierende: Bachelor Musik - Komposition und Musiktheorie - Komposition für Film, Theater und Medien - HS 2010
+  DMU_FMU_BMU_VKOT_SFTM_11H.studierende: Bachelor Musik - Komposition und Musiktheorie - Komposition für Film, Theater und Medien - HS 2011
+  DMU_FMU_BMU_VKOT_SFTM_12H.studierende: Bachelor Musik - Komposition und Musiktheorie - Komposition für Film, Theater und Medien - HS 2012
+  DMU_FMU_BMU_VKOT_SFTM_13H.studierende: Bachelor Musik - Komposition und Musiktheorie - Komposition für Film, Theater und Medien - HS 2013
+  DMU_FMU_BMU_VKOT_SKO_10H.studierende: Bachelor Musik - Komposition und Musiktheorie - Zeitgenössiche Komposition - HS 2010
+  DMU_FMU_BMU_VKOT_SKO_11H.studierende: Bachelor Musik - Komposition und Musiktheorie - Komposition HS 2011
+  DMU_FMU_BMU_VKOT_SKO_13H.studierende: Bachelor Musik - Komposition und Musiktheorie - Zeitgenössische Komposition - HS 2013
+  DMU_FMU_BMU_VKOT_STH_10H.studierende: Bachelor Musik - Komposition und Musiktheorie - Musiktheorie - HS 2010
+  DMU_FMU_BMU_VKOT_STH_11H.studierende: Bachelor Musik - Komposition und Musiktheorie - Musiktheorie - HS 2011
+  DMU_FMU_BMU_VKOT_STH_13H.studierende: Bachelor Musik - Komposition und Musiktheorie - Musiktheorie - HS 2013
+  DMU_FMU_BMU_VKS_SJAZ_08H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Jazz HS 2008
+  DMU_FMU_BMU_VKS_SJAZ_09H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Jazz HS 2009
+  DMU_FMU_BMU_VKS_SJAZ_12H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Jazz - HS 2012
+  DMU_FMU_BMU_VKS_SKLA_07H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Klassik HS 2007
+  DMU_FMU_BMU_VKS_SKLA_08H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Klassik HS 2008
+  DMU_FMU_BMU_VKS_SKLA_09H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Klassik HS 2009
+  DMU_FMU_BMU_VKS_SKLA_10H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Klassik - HS 2010
+  DMU_FMU_BMU_VKS_SKLA_11H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Klassik - HS 2011
+  DMU_FMU_BMU_VKS_SKLA_12H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Klassik - HS 2012
+  DMU_FMU_BMU_VKS_SKLA_13H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Klassik - HS 2013
+  DMU_FMU_BMU_VKS_SPOP_09H.studierende: Bachelor Musik - Kunst- und Sportgymnasium - Pop HS 2009
+  DMU_FMU_BMU_VSMU_SJAZ_10H.studierende: Bachelor Musik - Schulmusik - Jazz - HS 2010
+  DMU_FMU_BMU_VSMU_SJAZ_12H.studierende: Bachelor Musik - Schulmusik - Jazz - HS 2012
+  DMU_FMU_BMU_VSMU_SKLA_09H.studierende: Bachelor Musik - Schulmusik - Klassik HS 2009
+  DMU_FMU_BMU_VSMU_SKLA_10H.studierende: Bachelor Musik - Schulmusik - Klassik - HS 2010
+  DMU_FMU_BMU_VSMU_SKLA_11H.studierende: Bachelor Musik - Schulmusik - Klassik - HS 2011
+  DMU_FMU_BMU_VSMU_SKLA_12H.studierende: Bachelor Musik - Schulmusik - Klassik - HS 2012
+  DMU_FMU_BMU_VSMU_SKLA_13H.studierende: Bachelor Musik - Schulmusik - Klassik - HS 2013
+  DMU_FMU_BMU_VSMU_SPOP_10H.studierende: Bachelor Musik - Schulmusik - Pop HS 2010
+  DMU_FMU_BMU_VSMU_SPOP_11H.studierende: Bachelor Musik - Schulmusik - Pop - HS 2011
+  DMU_FMU_BMU_VSMU_SPOP_12H.studierende: Bachelor Musik - Schulmusik - Pop - HS 2012
+  DMU_FMU_BMU_VTO_SJAZ_08H.studierende: Bachelor Musik - Tonmeister - Jazz HS 2008
+  DMU_FMU_BMU_VTO_SJAZ_10H.studierende: Bachelor Musik - Tonmeister - Jazz - HS 2010
+  DMU_FMU_BMU_VTO_SJAZ_11H.studierende: Bachelor Musik - Tonmeister - Jazz - HS 2011
+  DMU_FMU_BMU_VTO_SJAZ_13H.studierende: Bachelor Musik - Tonmeister - Jazz - HS 2013
+  DMU_FMU_BMU_VTO_SKLA_08H.studierende: Bachelor Musik - Tonmeister - Klassik HS 2008
+  DMU_FMU_BMU_VTO_SKLA_10H.studierende: Bachelor Musik - Tonmeister - Klassik - HS 2010
+  DMU_FMU_BMU_VTO_SKLA_11H.studierende: Bachelor Musik - Tonmeister - Klassik - HS 2011
+  DMU_FMU_BMU_VTO_SKLA_13H.studierende: Bachelor Musik - Tonmeister - Klassik - HS 2013
+  DMU_FMU_BMU_VTO_SPOP_09H.studierende: Bachelor Musik - Tonmeister - Pop HS 2009
+  DMU_FMU_BMU_VTO_SPOP_10H.studierende: Bachelor Musik - Tonmeister - Pop - HS 2010
+  DMU_FMU_BMU_VTO_SPOP_11H.studierende: Bachelor Musik - Tonmeister - Pop - HS 2011
+  DMU_FMU_BMU_VTO_SPOP_12H.studierende: Bachelor Musik - Tonmeister - Pop - HS 2012
+  DMU_FMU_CASCA.alle: NDK / CAS Composing-Arranging
+  DMU_FMU_CASCA.studierende: NDK / CAS Composing-Arranging
+  DMU_FMU_CASCA_12H.studierende: CAS Composing-Arranging / Musikproduktion HS 2012
+  DMU_FMU_CASCA_13H.studierende: CAS Composing-Arranging / Musikproduktion HS 2013
+  DMU_FMU_CASCHL_13H.studierende: CAS Chorleitung HS 2013
+  DMU_FMU_CASCOM_12H.studierende: CAS Computermusik HS 2012
+  DMU_FMU_CASCOM_13F.studierende: CAS Computermusik FS 2013
+  DMU_FMU_CASCOM_13H.studierende: CAS Computermusik HS 2013
+  DMU_FMU_CASFTM.alle: NDK / CAS Komposition für Film, Theater und Medien (FTM)
+  DMU_FMU_CASFTM.studierende: NDK / CAS Komposition für Film, Theater und Medien (FTM)
+  DMU_FMU_CASFTM_13H.studierende: CAS Komposition für Film, Theater und Medien (FTM) HS 2013
+  DMU_FMU_CASGIH_13H.studierende: CAS Heilpädagogische Bildung in Musik und Gestaltung HS 2013
+  DMU_FMU_CASKCA_13H.studierende: CAS Kinderchorleitung advanced HS 2013
+  DMU_FMU_CASKCB_13H.studierende: CAS Kinderchorleitung basic HS 2013
+  DMU_FMU_CASKLA_13H.studierende: CAS Performance Klassik HS 2013
+  DMU_FMU_CASKMJ_12h.studierende: CAS Kirchenmusik Jazz und Pop advanced HS 2012
+  DMU_FMU_CASKMP_13H.studierende: CAS Kirchenmusikalische Praxis HS 2013
+  DMU_FMU_CASKO_13H.studierende: CAS Komposition/Musiktheorie HS 2013
+  DMU_FMU_CASMPA_13H.studierende: CAS Musikphysiologie advanced HS 2013
+  DMU_FMU_CASMPB_13H.studierende: CAS Musikphysiologie basic HS 2013
+  DMU_FMU_CASMPI_13H.studierende: CAS Musikphysiologie intermediate HS 2013
+  DMU_FMU_CASMPT_13H.studierende: CAS Vertiefung Musikpädagogik HS 2013
+  DMU_FMU_CASOCB_13H.studierende: CAS Orchesterleitung basic HS 2013
+  DMU_FMU_CASOCI_13H.studierende: CAS Orchesterleitung intermediate HS 2013
+  DMU_FMU_CASPJA_13F.studierende: CAS Performance Jazz und Pop FS 2013
+  DMU_FMU_CASPJA_13H.studierende: CAS Performance Jazz und Pop HS 2013
+  DMU_FMU_CASTON_13H.studierende: CAS Tontechnik HS 2013
+  DMU_FMU_DASKMC_11H.studierende: DAS Kirchenmusik Chorleitung HS 2011
+  DMU_FMU_DASKMC_13H.studierende: DAS Kirchenmusik Chorleitung HS 2013
+  DMU_FMU_DASKMO_11H.studierende: DAS Kirchenmusik Orgel HS 2011
+  DMU_FMU_DASKMO_12H.studierende: DAS Kirchenmusik Orgel HS 2012
+  DMU_FMU_DASKMO_13H.studierende: DAS Kirchenmusik Orgel HS 2013
+  DMU_FMU_GDI.alle: Diplomstudium (DaP) Studiengang IV
+  DMU_FMU_GDI.studierende: Diplomstudium (DaP) Studiengang IV
+  DMU_FMU_GDI_VORL_05W.studierende: SG IV Dirigieren - Orchesterleitung WS 2005
+  DMU_FMU_GDI_VORL_07H.studierende: SG IV Dirigieren - Orchesterleitung HS 2007
+  DMU_FMU_GIP.alle: Diplomstudium (DaP) Studiengang II Interpretation
+  DMU_FMU_GIP.studierende: Diplomstudium (DaP) Studiengang II Interpretation
+  DMU_FMU_GIP_VKD_SVO_07H.studierende: SG II Interpretation/Performance - Konzertdiplom - Vokal HS 2007
+  DMU_FMU_GKT.alle: Diplomstudium (DaP) Studiengang V
+  DMU_FMU_GKT.studierende: Diplomstudium (DaP) Studiengang V
+  DMU_FMU_GKT_VLM_07H.studierende: SG V Komposition, Theorie - Lehrdiplom Musiktheorie HS 2007
+  DMU_FMU_GMP.alle: Diplomstudium (DaP) Studiengang I Musikpädagogik
+  DMU_FMU_GMP.studierende: Diplomstudium (DaP) Studiengang I Musikpädagogik
+  DMU_FMU_GMP_SKLA_07H.studierende: SG I Musikpädagogik - Klassik HS 2007
+  DMU_FMU_GSK.alle: Diplomstudium (DaP) Studiengang III
+  DMU_FMU_GSK.studierende: Diplomstudium (DaP) Studiengang III
+  DMU_FMU_GSK_VSM_07H.studierende: SG III Schulmusik II HS 2007
+  DMU_FMU_MASEMP_10H.studierende: MAS erweiterte Musikpädagogik HS 2010
+  DMU_FMU_MASEMP_11F.studierende: MAS erweiterte Musikpädagogik FS 2011
+  DMU_FMU_MASEMP_11H.studierende: MAS erweiterte Musikpädagogik HS 2011
+  DMU_FMU_MASEMP_13F.studierende: MAS erweiterte Musikpädagogik FS 2013
+  DMU_FMU_MASEMP_13H.studierende: MAS erweiterte Musikpädagogik HS 2013
+  DMU_FMU_MASMK_09F.studierende: MAS in musikalischer Kreation HS 2010
+  DMU_FMU_MASMK_11H.studierende: MAS in musikalischer Kreation HS 2011
+  DMU_FMU_MASMPH_10H.studierende: MAS Musikphysiologie HS 2010
+  DMU_FMU_MASMPH_11H.studierende: MAS Musikphysiologie HS 2011
+  DMU_FMU_MASMPX_11F.studierende: MAS Musikpraxis FS 2011
+  DMU_FMU_MASMPX_11H.studierende: MAS Musikpraxis HS 2011
+  DMU_FMU_MASMPX_13F.studierende: MAS Musikpraxis FS 2013
+  DMU_FMU_MASMTH_08H.studierende: MAS in klinischer Musiktherapie HS 2008
+  DMU_FMU_MASMTH_10H.studierende: MAS in klinischer Musiktherapie HS 2010
+  DMU_FMU_MASMTH_12H.studierende: MAS in klinischer Musiktherapie HS 2012
+  DMU_FMU_MASMTH_UP_12H.studierende: MAS in klinischer Musiktherapie Upgrade HS 2012
+  DMU_FMU_MASMTH_UP_A_08F.studierende: MAS in klinischer Musiktherapie Upgrade A FS 2008
+  DMU_FMU_MASMTH_UP_B_08F.studierende: MAS in klinischer Musiktherapie Upgrade B FS 2008
+  DMU_FMU_MASMTH_UP_C_08F.studierende: MAS in klinischer Musiktherapie Upgrade C FS 2008
+  DMU_FMU_MASMV_09F.studierende: MAS in Musikvermittlung und Konzertpädagogik FS 2009
+  DMU_FMU_MASMV_11F.studierende: MAS in Musikvermittlung und Konzertpädagogik FS 2011
+  DMU_FMU_MKT.alle: Master Komposition/Theorie
+  DMU_FMU_MKT.studierende: Master Komposition/Theorie
+  DMU_FMU_MKT_VKOM_SFTM_08H.studierende: Master Komposition/Theorie - Komposition und Medientechnologie - Komposition für Film, Theater und Medien
+  DMU_FMU_MKT_VKO_SEAK_09H.studierende: Master Composition and Theory - Komposition - Elektroakustische Komposition - 09H
+  DMU_FMU_MKT_VKO_SEAK_10H.studierende: Master Composition and Theory - Komposition - Elektroakustische Komposition - HS 2010
+  DMU_FMU_MKT_VKO_SEAK_11H.studierende: Master Composition and Theory - Komposition - Elektroakustische Komposition - HS 2011
+  DMU_FMU_MKT_VKO_SEAK_12H.studierende: Master Composition and Theory - Komposition - Elektroakustische Komposition - HS 2012
+  DMU_FMU_MKT_VKO_SEAK_13H.studierende: Master Composition and Theory - Komposition - Elektroakustische Komposition - HS 2013
+  DMU_FMU_MKT_VKO_SFTM_09H.studierende: Master Composition and Theory - Komposition - Komposition für Film, Theater und Medien 09H
+  DMU_FMU_MKT_VKO_SFTM_10H.studierende: Master Composition and Theory - Komposition - Komposition für Film, Theater und Medien - HS 2010
+  DMU_FMU_MKT_VKO_SFTM_11H.studierende: Master Composition and Theory - Komposition - Komposition für Film, Theater und Medien - HS 2011
+  DMU_FMU_MKT_VKO_SFTM_12H.studierende: Master Composition and Theory - Komposition - Komposition für Film, Theater und Medien - HS 2012
+  DMU_FMU_MKT_VKO_SFTM_13H.studierende: Master Composition and Theory - Komposition - Komposition für Film, Theater und Medien - HS 2013
+  DMU_FMU_MKT_VKO_SKO4_08H.studierende: Master Composition and Theory - Komposition - Komposition 08H
+  DMU_FMU_MKT_VKO_SKO4_09H.studierende: Master Composition and Theory - Komposition - Komposition - HS 2009
+  DMU_FMU_MKT_VKO_SKO4_10H.studierende: Master Composition and Theory - Komposition - Komposition 10H
+  DMU_FMU_MKT_VKO_SKO4_11H.studierende: Master Composition and Theory - Komposition - Komposition - HS 2011
+  DMU_FMU_MKT_VKO_SKO4_12H.studierende: Master Composition and Theory - Komposition - Komposition - HS 2012
+  DMU_FMU_MKT_VKO_SKO4_13H.studierende: Master Composition and Theory - Komposition - Komposition - HS 2013
+  DMU_FMU_MKT_VKO_SKO6_08H.studierende: Master Composition and Theory - Komposition - Komposition 08H
+  DMU_FMU_MKT_VTH_09H.studierende: Master Composition and Theory - Theorie 09H
+  DMU_FMU_MKT_VTH_10H.studierende: Master Composition and Theory - Theorie 10H
+  DMU_FMU_MKT_VTH_11H.studierende: Master Composition and Theory - Theorie - HS 2011
+  DMU_FMU_MKT_VTH_12H.studierende: Master Composition and Theory - Theorie - HS 2012
+  DMU_FMU_MKT_VTH_13H.studierende: Master Composition and Theory - Theorie - HS 2013
+  DMU_FMU_MKT_VTO_08H.studierende: Master Composition and Theory - Tonmeister 08H
+  DMU_FMU_MKT_VTO_09H.studierende: Master Composition and Theory - Tonmeister 09H
+  DMU_FMU_MKT_VTO_10H.studierende: Master Composition and Theory - Tonmeister - HS 2010
+  DMU_FMU_MKT_VTO_11H.studierende: Master Composition and Theory - Tonmeister - HS 2011
+  DMU_FMU_MKT_VTO_12H.studierende: Master Composition and Theory - Tonmeister - HS 2012
+  DMU_FMU_MKT_VTO_13H.studierende: Master Composition and Theory - Tonmeister - HS 2013
+  DMU_FMU_MMP.alle: Master Musikpädagogik
+  DMU_FMU_MMP.studierende: Master Musikpädagogik
+  DMU_FMU_MMP_VAVE_12H.studierende: Master Music Pedagogy - Analyse und Vermittlung - HS 2012
+  DMU_FMU_MMP_VAVE_13H.studierende: Master Music Pedagogy - Analyse und Vermittlung - HS 2013
+  DMU_FMU_MMP_VIV_SJAZ_09H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Jazz 09H
+  DMU_FMU_MMP_VIV_SJAZ_10H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Jazz - HS 2010
+  DMU_FMU_MMP_VIV_SJAZ_11H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Jazz - HS 2011
+  DMU_FMU_MMP_VIV_SJAZ_12H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Jazz - HS 2012
+  DMU_FMU_MMP_VIV_SJAZ_13H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Jazz - HS 2013
+  DMU_FMU_MMP_VIV_SKLA_08H.studierende: Master Musikpädagogik - instrumentale/vokale Musikpädagogik - Klassik 08H
+  DMU_FMU_MMP_VIV_SKLA_09H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik 09H
+  DMU_FMU_MMP_VIV_SKLA_10F.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik 10F
+  DMU_FMU_MMP_VIV_SKLA_10H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik 10H
+  DMU_FMU_MMP_VIV_SKLA_11F.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik - FS 2011
+  DMU_FMU_MMP_VIV_SKLA_11H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik - HS 2011
+  DMU_FMU_MMP_VIV_SKLA_12F.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik - FS 2012
+  DMU_FMU_MMP_VIV_SKLA_12H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik - HS 2012
+  DMU_FMU_MMP_VIV_SKLA_13F.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik - FS 2013
+  DMU_FMU_MMP_VIV_SKLA_13H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik - HS 2013
+  DMU_FMU_MMP_VIV_SKLA_O_11H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik - HS 2011
+  DMU_FMU_MMP_VIV_SKLA_O_13H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Klassik - HS 2013
+  DMU_FMU_MMP_VIV_SPOP_09H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Pop 09H
+  DMU_FMU_MMP_VIV_SPOP_10H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Pop 10H
+  DMU_FMU_MMP_VIV_SPOP_11H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Pop - HS 2011
+  DMU_FMU_MMP_VIV_SPOP_12H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Pop - HS 2012
+  DMU_FMU_MMP_VIV_SPOP_13H.studierende: Master Music Pedagogy - instrumentale/vokale Musikpädagogik - Pop - HS 2013
+  DMU_FMU_MMP_VMB_SEM_08H.studierende: Master Music Pedagogy - Musik und Bewegung - Elementare Musikerziehung 08H
+  DMU_FMU_MMP_VMB_SEM_09H.studierende: Master Music Pedagogy - Musik und Bewegung - Elementare Musikerziehung 09H
+  DMU_FMU_MMP_VMB_SEM_10H.studierende: Master Music Pedagogy - Musik und Bewegung - Elementare Musikerziehung - HS 2010
+  DMU_FMU_MMP_VMB_SEM_11H.studierende: Master Music Pedagogy - Musik und Bewegung - Elementare Musikerziehung - HS 2011
+  DMU_FMU_MMP_VMB_SEM_12H.studierende: Master Music Pedagogy - Musik und Bewegung - Elementare Musikerziehung - HS 2012
+  DMU_FMU_MMP_VMB_SEM_13H.studierende: Master Music Pedagogy - Musik und Bewegung - Elementare Musikerziehung - HS 2013
+  DMU_FMU_MMP_VMB_SRH_08H.studierende: Master Music Pedagogy - Musik und Bewegung - Rhythmik 08H
+  DMU_FMU_MMP_VMB_SRH_09H.studierende: Master Music Pedagogy - Musik und Bewegung - Rhythmik 09H
+  DMU_FMU_MMP_VMB_SRH_10H.studierende: Master Music Pedagogy - Musik und Bewegung - Rhythmik - HS 2010
+  DMU_FMU_MMP_VMB_SRH_11H.studierende: Master Music Pedagogy - Musik und Bewegung - Rhythmik - HS 2011
+  DMU_FMU_MMP_VMB_SRH_12H.studierende: Master Music Pedagogy - Musik und Bewegung - Rhythmik - HS 2012
+  DMU_FMU_MMP_VMB_SRH_13H.studierende: Master Music Pedagogy - Musik und Bewegung - Rhythmik - HS 2013
+  DMU_FMU_MMP_VSMU_SSII_08H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik II 08H
+  DMU_FMU_MMP_VSMU_SSII_09H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik II 09H
+  DMU_FMU_MMP_VSMU_SSII_10H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik II - HS 2010
+  DMU_FMU_MMP_VSMU_SSII_11H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik II - HS 2011
+  DMU_FMU_MMP_VSMU_SSII_12H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik II - HS 2012
+  DMU_FMU_MMP_VSMU_SSII_13H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik II - HS 2013
+  DMU_FMU_MMP_VSMU_SSI_08H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik I 08H
+  DMU_FMU_MMP_VSMU_SSI_09H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik I 09H
+  DMU_FMU_MMP_VSMU_SSI_10H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik I - HS 2010
+  DMU_FMU_MMP_VSMU_SSI_11H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik I - HS 2011
+  DMU_FMU_MMP_VSMU_SSI_12H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik I - HS 2012
+  DMU_FMU_MMP_VSMU_SSI_13H.studierende: Master Music Pedagogy - Schulmusik - Schulmusik I - HS 2013
+  DMU_FMU_MPE.alle: Master Musik Performance
+  DMU_FMU_MPE.studierende: Master Musik Performance
+  DMU_FMU_MPE_VDI_SOL_08H.studierende: Master Music Performance - Dirigieren - Orchesterleitung 08H
+  DMU_FMU_MPE_VDI_SOL_09H.studierende: Master Music Performance - Dirigieren - Orchesterleitung 09H
+  DMU_FMU_MPE_VDI_SOL_10H.studierende: Master Music Performance - Dirigieren - Orchesterleitung - HS 2010
+  DMU_FMU_MPE_VDI_SOL_11H.studierende: Master Music Performance - Dirigieren - Orchesterleitung - HS 2011
+  DMU_FMU_MPE_VDI_SOL_13H.studierende: Master Music Performance - Dirigieren - Orchesterleitung - HS 2013
+  DMU_FMU_MPE_VIV_SKT_08H.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert 08H
+  DMU_FMU_MPE_VIV_SKT_09F.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert 09F
+  DMU_FMU_MPE_VIV_SKT_09H.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert 09H
+  DMU_FMU_MPE_VIV_SKT_10F.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert 10F
+  DMU_FMU_MPE_VIV_SKT_10H.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert 10H
+  DMU_FMU_MPE_VIV_SKT_11F.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert - FS 2011
+  DMU_FMU_MPE_VIV_SKT_11H.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert - HS 2011
+  DMU_FMU_MPE_VIV_SKT_12F.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert - FS 2012
+  DMU_FMU_MPE_VIV_SKT_12H.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert - HS 2012
+  DMU_FMU_MPE_VIV_SKT_13F.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert - FS 2013
+  DMU_FMU_MPE_VIV_SKT_13H.studierende: Master Music Performance - instrumentale/vokale Performance - Konzert - HS 2013
+  DMU_FMU_MPE_VIV_SOP_08H.studierende: Master Music Performance - instrumentale/vokale Performance - Oper 08H
+  DMU_FMU_MPE_VIV_SOP_09H.studierende: Master Music Performance - instrumentale/vokale Performance - Oper 09H
+  DMU_FMU_MPE_VIV_SOP_10F.studierende: Master Music Performance - instrumentale/vokale Performance - Oper 09H
+  DMU_FMU_MPE_VIV_SOP_10H.studierende: Master Music Performance - instrumentale/vokale Performance - Oper 10H
+  DMU_FMU_MPE_VIV_SOP_11H.studierende: Master Music Performance - instrumentale/vokale Performance - Oper 11H
+  DMU_FMU_MPE_VIV_SOP_12H.studierende: Master Music Performance - instrumentale/vokale Performance - Oper - HS 2012
+  DMU_FMU_MPE_VIV_SOP_13H.studierende: Master Music Performance - instrumentale/vokale Performance - Oper - HS 2013
+  DMU_FMU_MPE_VIV_SOR_09F.studierende: Master Music Performance - instrumentale/vokale Performance - Orchester 09F
+  DMU_FMU_MPE_VIV_SOR_09H.studierende: Master Music Performance - instrumentale/vokale Performance - Orchester - HS 2009
+  DMU_FMU_MPE_VIV_SOR_10F.studierende: Master Music Performance - instrumentale/vokale Performance - Orchester 10F
+  DMU_FMU_MPE_VIV_SOR_10H.studierende: Master Music Performance - instrumentale/vokale Performance - Orchester 10H
+  DMU_FMU_MPE_VIV_SOR_11F.studierende: Master Music Performance - instrumentale/vokale Performance - Orchester 11F
+  DMU_FMU_MPE_VIV_SOR_11H.studierende: Master Music Performance - instrumentale/vokale Performance - Orchester - HS 2011
+  DMU_FMU_MPE_VIV_SOR_12F.studierende: Master Music Performance - instrumentale/vokale Performance - Orchester - FS 2012
+  DMU_FMU_MPE_VIV_SOR_12H.studierende: Master Music Performance - instrumentale/vokale Performance - Orchester - HS 2012
+  DMU_FMU_MPE_VIV_SOR_13F.studierende: Master Music Performance - instrumentale/vokale Performance - Orchester - FS 2013
+  DMU_FMU_MPE_VIV_SOR_13H.studierende: Master Music Performance - instrumentale/vokale Performance - Orchester - HS 2013
+  DMU_FMU_MPE_VKM_SCH_08H.studierende: Master Music Performance - Kirchenmusik - Chorleitung geistlich 08H
+  DMU_FMU_MPE_VKM_SCH_09H.studierende: Master Music Performance - Kirchenmusik - Chorleitung geistlich 09H
+  DMU_FMU_MPE_VKM_SCH_11H.studierende: Master Music Performance - Kirchenmusik - Chorleitung geistlich - HS 2011
+  DMU_FMU_MPE_VKM_SCH_13H.studierende: Master Music Performance - Kirchenmusik - Chorleitung geistlich - HS 2013
+  DMU_FMU_MPE_VKM_SOCH_11H.studierende: Master Music Performance - Kirchenmusik - Orgel 11H
+  DMU_FMU_MPE_VKM_SOCH_13H.studierende: Master Music Performance - Kirchenmusik - Orgel/Chorleitung - HS 2013
+  DMU_FMU_MPE_VKM_SOG_08H.studierende: Master Music Performance - Kirchenmusik - Orgel 08H
+  DMU_FMU_MPE_VKM_SOG_10H.studierende: Master Music Performance - Kirchenmusik - Orgel 10H
+  DMU_FMU_MPE_VKM_SOG_11H.studierende: Master Music Performance - Kirchenmusik - Orgel - HS 2011
+  DMU_FMU_MPE_VKM_SOG_12H.studierende: Master Music Performance - Kirchenmusik - Orgel - HS 2012
+  DMU_FMU_MPE_VKM_SOG_13H.studierende: Master Music Performance - Kirchenmusik - Orgel - HS 2013
+  DMU_FMU_MSP.alle: Master Specialized Music Performance
+  DMU_FMU_MSP.studierende: Master Specialized Music Performance
+  DMU_FMU_MSP_VDI_SCH_12H.studierende: Master Specialized Music Performance - Dirigieren - Chorleitung - HS 2012
+  DMU_FMU_MSP_VDI_SCH_13H.studierende: Master Specialized Music Performance - Dirigieren - Chorleitung - HS 2013
+  DMU_FMU_MSP_VDI_SOL_08H.studierende: Master Specialized Music Performance - Dirigieren - Orchesterleitung - HS 2008
+  DMU_FMU_MSP_VDI_SOL_09H.studierende: Master Specialized Music Performance - Dirigieren - Orchesterleitung 09H
+  DMU_FMU_MSP_VDI_SOL_10H.studierende: Master Specialized Music Performance - Dirigieren - Orchesterleitung - HS 2010
+  DMU_FMU_MSP_VDI_SOL_11H.studierende: Master Specialized Music Performance - Dirigieren - Orchesterleitung 11H
+  DMU_FMU_MSP_VDI_SOL_12H.studierende: Master Specialized Music Performance - Dirigieren - Orchesterleitung - HS 2012
+  DMU_FMU_MSP_VKAM_SEL_10H.studierende: Master Specialized Music Performance - Kammermusik - Ensemble/Liedduo 10H
+  DMU_FMU_MSP_VKAM_SKL_08H.studierende: Master Specialized Music Performance - Kammermusik - Klavierkammermusik/Liedgestaltung 08H
+  DMU_FMU_MSP_VKAM_SKL_09F.studierende: Master Specialized Music Performance - Kammermusik - Klavierkammermusik/Liedgestaltung 09F
+  DMU_FMU_MSP_VKAM_SKL_09H.studierende: Master Specialized Music Performance - Kammermusik - Klavierkammermusik/Liedgestaltung 09H
+  DMU_FMU_MSP_VKAM_SKL_10F.studierende: Master Specialized Music Performance - Kammermusik - Klavierkammermusik/Liedgestaltung 10F
+  DMU_FMU_MSP_VKAM_SKL_10H.studierende: Master Specialized Music Performance - Kammermusik - Klavierkammermusik/Liedgestaltung 10H
+  DMU_FMU_MSP_VKAM_SKL_11F.studierende: Master Specialized Music Performance - Kammermusik - Klavierkammermusik/Liedgestaltung 11F
+  DMU_FMU_MSP_VKAM_SKL_11H.studierende: Master Specialized Music Performance - Kammermusik - Klavierkammermusik/Lied - HS 2011
+  DMU_FMU_MSP_VKAM_SKL_12F.studierende: Master Specialized Music Performance - Kammermusik - Klavierkammermusik/Lied - FS 2012
+  DMU_FMU_MSP_VKAM_SKL_12H.studierende: Master Specialized Music Performance - Kammermusik - Klavierkammermusik/Lied - HS 2012
+  DMU_FMU_MSP_VKAM_SKL_13F.studierende: Master Specialized Music Performance - Kammermusik - Klavierkammermusik/Lied - FS 2013
+  DMU_FMU_MSP_VOP_09H.studierende: Master Specialized Music Performance - Oper 09H
+  DMU_FMU_MSP_VOP_10H.studierende: Master Specialized Music Performance - Oper 10H
+  DMU_FMU_MSP_VOP_11H.studierende: Master Specialized Music Performance - Oper - HS 2011
+  DMU_FMU_MSP_VOP_12H.studierende: Master Specialized Music Performance - Oper - HS 2012
+  DMU_FMU_MSP_VOP_13H.studierende: Master Specialized Music Performance - Oper - HS 2013
+  DMU_FMU_MSP_VSO_08H.studierende: Master Specialized Music Performance - Solist/in - 08H
+  DMU_FMU_MSP_VSO_09H.studierende: Master Specialized Music Performance - Solist/in - 09H
+  DMU_FMU_MSP_VSO_10F.studierende: Master Specialized Music Performance - Solist/in - FS 2010
+  DMU_FMU_MSP_VSO_10H.studierende: Master Specialized Music Performance - Solist/in - 10H
+  DMU_FMU_MSP_VSO_11F.studierende: Master Specialized Music Performance - Solist/in - 11F
+  DMU_FMU_MSP_VSO_11H.studierende: Master Specialized Music Performance - Solist/in - HS 2011
+  DMU_FMU_MSP_VSO_12F.studierende: Master Specialized Music Performance - Solist/in - FS 2012
+  DMU_FMU_MSP_VSO_12H.studierende: Master Specialized Music Performance - Solist/in - HS 2012
+  DMU_FMU_MSP_VSO_13F.studierende: Master Specialized Music Performance - Solist/in - FS 2013
+  DMU_FMU_MSP_VSO_13H.studierende: Master Specialized Music Performance - Solist/in - HS 2013
+  DMU_FMU_PJAPO.alle: Profil Jazz und Pop
+  DMU_FMU_PJAPO.dozierende: Profil Jazz und Pop
+  DMU_FMU_PJAPO.personal: Profil Jazz und Pop
+  DMU_FMU_PKLA.alle: Profil Klassik
+  DMU_FMU_PKLA.dozierende: Profil Klassik
+  DMU_FMU_PKM.alle: Profil Kirchenmusik
+  DMU_FMU_PKM.dozierende: Profil Kirchenmusik
+  DMU_FMU_PMB.alle: Profil Musik und Bewegung
+  DMU_FMU_PMB.dozierende: Profil Musik und Bewegung
+  DMU_FMU_PTH.alle: Profil Theorie
+  DMU_FMU_PTH.dozierende: Profil Theorie
+  DMU_FMU_PTH.mittelbau: Profil Theorie
+  DMU_FMU_XJST_OAK_13H.studierende: Jungstudierende - Orgelakademie - HS 2013
+  DMU_FMU_XJST_SKLA_05W.studierende: Jungstudierende - Klassik WS 2005
+  DMU_FMU_XJST_SKLA_06W.studierende: Jungstudierende - Klassik WS 2006
+  DMU_FMU_XJST_SKLA_08H.studierende: Jungstudierende - Klassik HS 2008
+  DMU_FMU_XJST_SKLA_09H.studierende: Jungstudierende - Klassik HS 2009
+  DMU_FMU_XJST_SKLA_10H.studierende: Jungstudierende - Klassik HS 2010
+  DMU_FMU_XJST_SKLA_11H.studierende: Jungstudierende - Klassik - HS 2011
+  DMU_FMU_XJST_SKLA_12H.studierende: Jungstudierende - Klassik - HS 2012
+  DMU_FMU_XJST_SKLA_13H.studierende: Jungstudierende - Klassik - HS 2013
+  DMU_FMU_XJST_VKS_08H.studierende: Jungstudierende - Kunst- und Sportgymnasium HS 2008
+  DMU_FMU_XJST_VKS_09H.studierende: Jungstudierende - Kunst- und Sportgymnasium HS 2009
+  DMU_FMU_XJST_VKS_10H.studierende: Jungstudierende - Kunst- und Sportgymnasium HS 2010
+  DMU_FMU_XJST_VKS_11F.studierende: Jungstudierende - Kunst- und Sportgymnasium FS 2011
+  DMU_FSPMI.alle: FSP Musikalische Interpretation
+  DMU_FSPMI.dozierende: FSP Musikalische Interpretation
+  DMU_FSPMI.mittelbau: FSP Musikalische Interpretation
+  DMU_FSPMI.personal: FSP Musikalische Interpretation
+  DMU_ICST.alle: Institute for Computer Music and Sound Technology
+  DMU_ICST.dozierende: Institute for Computer Music and Sound Technology
+  DMU_ICST.mittelbau: Institute for Computer Music and Sound Technology
+  DMU_MASEMP.alle: MAS erweiterte Musikpraxis
+  DMU_MASEMP.studierende: MAS erweiterte Musikpraxis
+  DMU_MASMK.alle: MAS musikalische Kreation
+  DMU_MASMK.studierende: MAS musikalische Kreation
+  DMU_MASMPH.alle: MAS Musikphysiologie
+  DMU_MASMPH.studierende: MAS Musikphysiologie
+  DMU_MASMPX.alle: MAS Musikpraxis
+  DMU_MASMPX.studierende: MAS Musikpraxis
+  DMU_MASMTH.alle: MAS Musiktheorie
+  DMU_MASMTH.studierende: MAS Musiktheorie
+  DMU_MASMV.alle: MAS Musikvermittlung und Konzertpädagogik
+  DMU_MASMV.studierende: MAS Musikvermittlung und Konzertpädagogik
+  F_E.alle: Forschung und Entwicklung
+  F_E.dozierende: Forschung und Entwicklung
+  F_E.mittelbau: Forschung und Entwicklung
+  Personal.berechtigung.personal: Personal.berechtigung
+  REK.alle: Rektorat
+  REK.dozierende: Rektorat
+  REK.personal: Rektorat
+  REK_HSK.alle: Hochschulkommunikation
+  REK_HSK.personal: Hochschulkommunikation
+  SER.alle: Services
+  SER.dozierende: Services
+  SER.personal: Services
+  SER_ITZ_Blitzkurse.alle: Blitzkurse
+  SER_ITZ_Blitzkurse.dozierende: Blitzkurse
+  SER_ITZ_Blitzkurse.personal: Blitzkurse
+  SER_ITZ_itpool.alle: IT-Pool
+  SER_ITZ_itpool.dozierende: IT-Pool
+  SER_ITZ_itpool.personal: IT-Pool
+  SER_MAN.alle: Services, Management Services
+  SER_MAN.personal: Services, Management Services
+  SER_MAN_BAP.alle: Services, Abteilung Business Applications
+  SER_MAN_BAP.personal: Services, Abteilung Business Applications
+  SER_MAN_FIN.alle: Services, Abteilung Finanzen
+  SER_MAN_FIN.personal: Services, Abteilung Finanzen
+  SER_MAN_HAD.alle: Services, Abteilung Hochschuladministration
+  SER_MAN_HAD.personal: Services, Abteilung Hochschuladministration
+  SER_MAN_PER.alle: Services, Abteilung Personalabteilung
+  SER_MAN_PER.personal: Services, Abteilung Personalabteilung
+  SER_SUP.alle: Services, Support Services
+  SER_SUP.dozierende: Services, Support Services
+  SER_SUP.personal: Services, Support Services
+  SER_SUP_FM.alle: Services, Abteilung Facility Management
+  SER_SUP_FM.personal: Services, Abteilung Facility Management
+  SER_SUP_ITZ.alle: Services, Informationstechnologie-Zentrum (ITZ)
+  SER_SUP_ITZ.dozierende: Services, Informationstechnologie-Zentrum (ITZ)
+  SER_SUP_ITZ.personal: Services, Informationstechnologie-Zentrum (ITZ)
+  SER_SUP_ITZ_Betrieb.alle: Personal ITZ, Gruppe Betrieb
+  SER_SUP_ITZ_Betrieb.personal: Personal ITZ, Gruppe Betrieb
+  SER_SUP_ITZ_Entwicklung.alle: Personal ITZ, Gruppe Entwicklung
+  SER_SUP_ITZ_Entwicklung.personal: Personal ITZ, Gruppe Entwicklung
+  SER_SUP_ITZ_Planung.alle: Personal ITZ, Gruppe Planung
+  SER_SUP_ITZ_Planung.personal: Personal ITZ, Gruppe Planung
+  SER_SUP_MIZ.alle: Services, Medien- und Informationszentrum
+  SER_SUP_MIZ.personal: Services, Medien- und Informationszentrum
+  SER_SUP_PZ.alle: Services, Produktionszentrum
+  SER_SUP_PZ.personal: Services, Produktionszentrum
+  SER_VD.alle: Services, Verwaltungsdirektion
+  SER_VD.personal: Services, Verwaltungsdirektion
+  SER_VD_HSC.alle: Services, Hochschulcontrolling
+  SER_VD_HSC.personal: Services, Hochschulcontrolling
+  Verteilerliste.Admin_Modulverantwortliche_Evento: Administrative Modulverantwortliche Evento
+  Verteilerliste.Amsterdam_VFO: Projekt Amsterdam - Vertiefung Fotografie
+  Verteilerliste.App_ClickEnroll_Admin: Personen, die die Webapplikationen "ClickEnroll" pflegen.
+  Verteilerliste.App_DB_Admins: Personen, die Low-Level-Zugang zu wichtigen Datenbanken (z.B. Evento) benötigen.
+  Verteilerliste.App_Intranetnews_Admin: Personen, die die Applikation Intranet-News (inkl. Infobildschirme) pflegen.
+  Verteilerliste.App_Jahreskalender_Admin: Personen, die die Webapplikation "Jahreskalender" pflegen.
+  Verteilerliste.App_Links_Admin: Personen, die die Webapplikationen "Links" pflegen.
+  Verteilerliste.App_News_Admin: Personen, die die News-Applikation mit Inhalt versorgen.
+  Verteilerliste.App_Pensenblatt_Admin: Personen, die Zugang zu allen Pensenblättern benötigen.
+  Verteilerliste.App_Personensuche_Admin: Personen mit Admin-Rechten auf der Applikation Personensuche
+  Verteilerliste.App_Personensuche_Adressen: Personen, die erweiterten Zugang in der Personensuche benötigen
+  Verteilerliste.App_Projektarchiv_Admin: Personen, die das Projektschaufenster pflegen.
+  Verteilerliste.App_Raumbelegungsanzeige: Personen, die Adm-Zugang zur Applikation Raumbelegungsanzeige haben
+  Verteilerliste.App_Raumverwaltung_Kioskbetrieb: Dieser Gruppe gehören diejenigen Pseudobenutzer an, die standardmässig im Kioskbetrieb angemeldet werden.
+  Verteilerliste.App_Raumverwaltung_Superuser: Superuser der Webapplikation Raumverwaltung
+  Verteilerliste.App_Tontraeger_Admin: Personen, die die Tonträger-Datenbank des MIZ pflegen
+  Verteilerliste.App_Weiterbildungsnews_Admin: Personen, die die Applikation Weiterbildung-News pflegen.
+  Verteilerliste.BDE_Leitung: Leitung und Assistenz für den Bachelor Design
+  Verteilerliste.Beirat: Beirat
+  Verteilerliste.Board: Zugriff auf Board (Citrix)
+  Verteilerliste.DDE_Controlling: Personen, die Einblick in Controlling-Dokumente DDE im Intranet erhalten
+  Verteilerliste.DDK_Controlling: Personen, die Einblick in Controlling-Dokumente DDK im Intranet erhalten
+  Verteilerliste.DKM_Controlling: Personen, die Einblick in Controlling-Dokumente DKM im Intranet erhalten
+  Verteilerliste.DKM_Gaeste: Gäste des DKM (sowohl Externe wie auch ZHdK-Angehörige)
+  Verteilerliste.DKM_Sekretariat: DKM_Sekretariat
+  Verteilerliste.DKM_VFO_Gaststudierende: Gaststudierende in der Vertiefung Fotografie
+  Verteilerliste.DKVKonferenz: DKV Konferenz
+  Verteilerliste.DKV_Controlling: Personen, die Einblick in Controlling-Dokumente DKV im Intranet erhalten
+  Verteilerliste.DKV_Zmodule_Admin: Personen, die Admin-Zugang zu den Z-Modul-Applikationen benötigen.
+  Verteilerliste.DKV_Zmodulkonferenz: Mitglieder der Z-Modul-Konferenz und Personen, die Zugang zu den Daten der Z-Modul-Anmeldung benötigen.
+  Verteilerliste.DMU_Controlling: Personen, die Einblick in Controlling-Dokumente DMU im Intranet erhalten
+  Verteilerliste.DMU_Einschreibung_Superadmin: Personen, die Stammdaten der elektronischen Einschreibung im Dept. Musik pflegen.
+  Verteilerliste.DMU_Einschreibungen: DMU elektronische Einschreibung - Liste der involvierten Mitarbeitenden
+  Verteilerliste.DMU_Freundeskreis_Admin: Personen, die für die Verwaltung der Freundeskreis-.Patenschaften zuständig sind. Auch externe Personen.
+  Verteilerliste.DMU_HF_Dozierende: Hauptfachdozierende Departement Musik
+  Verteilerliste.DMU_Konzertvermittlung: Personen, die die Konzertvermittlung im Dept. Musik betreiben.
+  Verteilerliste.DMU_Leitungen: Alle Leitungspersonen im Dept. Musik
+  Verteilerliste.DMU_Mentoren: Mentoratspersonen, die Einsicht in sensible Daten erhalten.
+  Verteilerliste.DMU_Mentoren_Admin: Personen, die bei Erfassung von Beurteilungen involviert sind. Diese Personen erhalten ausserdem Einsicht in Beurteilungen (Sensible Daten!)
+  Verteilerliste.DMU_Mitarbeitende: DMU Mitarbeitende
+  Verteilerliste.DMU_Mitarbeiter_MPE_MSP_Klassik: Mitarbeiter der Studiengänge MPE und MSP Klassik
+  Verteilerliste.DMU_Orchesteradministration: Involvierte Personen der Orchesteradministration
+  Verteilerliste.DMU_Sekretariate: Personen in allen Sekretariaten des Dept. Musik
+  Verteilerliste.DMU_Studiosession_Admin: Personen, die in die Verwaltung der Studiosessions im Dept. Musik involviert sind.
+  Verteilerliste.Departementsleitungen: Departementsleitungen
+  Verteilerliste.Evento_lesen: Leseberechtige Benutzer Evento
+  Verteilerliste.Events_Admin: Personen, die den Veranstaltungskalender der ZHdK bedienen
+  Verteilerliste.Events_Superadmin: Personen, die Stammdaten des Veranstaltungskalenders bearbeiten und Event-Teaser auf die Startseite setzen können.
+  Verteilerliste.FTM_Dozierende: Dozierende FTM > Komposition für Film, Theater und Medien
+  Verteilerliste.FTM_Fachdozierende: Fachdozierende FTM > Komposition für Film, Theater und Medien
+  Verteilerliste.FTM_Kernfachdozierende: Kernfachdozierende FTM > Komposition für Film, Theater und Medien
+  Verteilerliste.FTM_Studierende: Studierende FTM (auch von HKB) > Komposition für Film, Theater und Medien
+  Verteilerliste.FTM_Studiosession_Superadmin: Administratoren der Studiosession-Applikation für Film-/Theater- und Medienstudis (FTM)
+  Verteilerliste.F_E_Projektleiter: F_und_E Projektleiter (Aracely Uzeda)
+  Verteilerliste.Film_Dozierende_festang: Film_Dozierende_festang
+  Verteilerliste.Film_Leitung: Film_Leitung (nur Fachrichtungsleitung)
+  Verteilerliste.Film_Leitung_Personal: Film_Leitung_Personal
+  Verteilerliste.Film_Profilleitung: Film_Profilleitung
+  Verteilerliste.Form_DMU_Wettbewerbe: Zugang zu den Formulardaten "Wettbewerbs-Anmeldungen"
+  Verteilerliste.Form_Film_Evaluation: 'Film_Evaluation: Zugang zu vertraulichen Evaluationsdaten im Bereich Film'
+  Verteilerliste.Form_Jahresbericht: Personen, die Zugriff auf die Daten der Jahresbericht-Formular im Intranet benötigen
+  Verteilerliste.Form_Personalrat_Feedback: Zugang zu den sensiblen Formulardaten "Feedback Personalrat"
+  Verteilerliste.Forschungkommissionen: Forschungkommissionen
+  Verteilerliste.Forschungskonferenz: Forschungskonferenz
+  Verteilerliste.Fotoueberpruefer: Applikation Fotoüberprüfer
+  Verteilerliste.Grafikatelier: Grafikatelier
+  Verteilerliste.HSAdmin_SG: HSAdmin_SG
+  Verteilerliste.Hochschulleitung: Hochschulleitung
+  Verteilerliste.ITZ_Ausstellungen: ITZ Ausstellungen
+  Verteilerliste.ITZ_Business_Applikationen: ITZ Business Applikationen
+  Verteilerliste.ITZ_Hardware: ITZ_Hardware
+  Verteilerliste.ITZ_Ra: ITZ_Ra
+  Verteilerliste.ITZ_Security: ITZ_Security
+  Verteilerliste.Institutsleitungen: Institutsleitungen
+  Verteilerliste.KSA_Generalzugriff: Personen mit Einsicht in alle Budgets der Online-Kostenstellenabfrage
+  Verteilerliste.Kommunikation: Personen im Bereich der Öffentlichkeitsarbeit
+  Verteilerliste.Konsi_Winterthur_Dozierende: Dozierende am Konservatorium Winterthur
+  Verteilerliste.Konsi_Winterthur_Intranet_Admins: Mitarbeiter des Konservatorium Winterthurs, die die ZHdK-Intranetzugänge des Konservatoriums verwalten
+  Verteilerliste.Leistungserfassung_Evento: Personen, die Leistungen im Evento erfassen
+  Verteilerliste.Leitung_Finanzen: Leitung der Finanzabteilung
+  Verteilerliste.Leitung_Studiengaenge: Leitung Studiengänge/Vertiefungen/Schwerpunkte/Profile - Dozierende mit Leitungsfunktionen
+  Verteilerliste.Leitung_VNM: Leitung Vertiefung Neue Medien
+  Verteilerliste.MAE_externe_Dozierende: MAE Externe Dozierende
+  Verteilerliste.Management_Services: Management_Services (Verwaltungsdirektion)
+  Verteilerliste.Mitarbeiter_IAE: Mitarbeiter IAE
+  Verteilerliste.Mittelbaurat: Mittelbaurat
+  Verteilerliste.Pandemie: Auswertung Pandemie-Umfrage
+  Verteilerliste.Personalrat: Personalrat
+  Verteilerliste.Planung_FM: Planung Facility Management
+  Verteilerliste.QM: Qualitätsmanagement
+  Verteilerliste.REK_Controlling: Personen, die Einblick in Controlling-Dokumente REK im Intranet erhalten
+  Verteilerliste.SAP_BW_Portal_KST: Zugriff auf SAP BW Portal, KST-Auswertung
+  Verteilerliste.SAP_Superuser: SAP Superuser
+  Verteilerliste.SER_PER_Vorgesetzte: Linienvorgesetzte der ZHdK (Führungsstufen 0 bis 3)
+  Verteilerliste.SER_SUP_MIZ_Archiv: MIZ Archiv
+  Verteilerliste.SER_SUP_MIZ_Ausleihe_Ausstellungsstrasse: MIZ Ausleihe
+  Verteilerliste.SER_SUP_MIZ_Ausstellungsstrasse: MIZ_Ausstellungsstrasse
+  Verteilerliste.SER_SUP_MIZ_Intern: MIZ_Intern
+  Verteilerliste.SER_SUP_MIZ_Katalogisierung_GND_S: MIZ Katalogisierung GND_S
+  Verteilerliste.SER_SUP_MIZ_Katalogisierung_Reklassifizierung: MIZ Katalogisierung/Reklassifizierung
+  Verteilerliste.SER_SUP_MIZ_Kommission: MIZ Kommission
+  Verteilerliste.SER_SUP_MIZ_Teamsitzung: MIZ Teamsitzung
+  Verteilerliste.Senat: Senat
+  Verteilerliste.Studierendenrat: Alle Mitglieder des Studierendenrates SturZ
+  Verteilerliste.Support_Services: Verwaltung Support_Services
+  Verteilerliste.Teilnehmer_Symposium_Musiktherapie: Teilnehmer des Symposiums Musiktherapie (Weiterbildung)
+  Verteilerliste.TheaterderKuenste: Theater der Künste
+  Verteilerliste.Typo3_Redaktion: Typo3 - RedaktorInnen
+  Verteilerliste.Unterschriftenverzeichnis: Personen mit Einsicht in das Unterschriftenverzeichnis (Intranet)
+  Verteilerliste.Vertiefungssekretariate: Vertiefungssekretariate
+  Verteilerliste.Vorlesungsverzeichnis: Vorlesungsverzeichnis
+  Verteilerliste.Zeiterfassung: Zeiterfassung
+  dozierende.berechtigung.dozierende: dozierende.berechtigung
+  mittelbau.DKV_Museum_Au60.alle: Mittelbau Museum Au60
+  mittelbau.DKV_Museum_Au60.mittelbau: Mittelbau Museum Au60
+  mittelbau.DKV_Museum_Bellerive.alle: Mittelbau Museum Bellerive
+  mittelbau.DKV_Museum_Bellerive.mittelbau: Mittelbau Museum Bellerive
+  mittelbau.Sammlungen_detailliert.alle: Mittelbau Sammlungen detailliert
+  mittelbau.Sammlungen_detailliert.mittelbau: Mittelbau Sammlungen detailliert
+  mittelbau.berechtigung.mittelbau: mittelbau.berechtigung
+  personal.DKV_Museum_Au60.alle: Personal Museum Au60
+  personal.DKV_Museum_Au60.personal: Personal Museum Au60
+  personal.DKV_Museum_Bellerive.alle: Personal Museum Bellerive
+  personal.DKV_Museum_Bellerive.personal: Personal Museum Bellerive
+  personal.DKV_Sammlungen_detailliert.alle: Personal Sammlungen
+  personal.DKV_Sammlungen_detailliert.personal: Personal Sammlungen
+  studierende.berechtigung.studierende: studierende.berechtigung
