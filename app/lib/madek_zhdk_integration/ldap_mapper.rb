@@ -17,7 +17,7 @@ module MadekZhdkIntegration
           file.write(
             Hash[
               InstitutionalGroup.all.map do |g| 
-                [g.ldap_name,g.name.gsub(/\n/, " ").strip]
+                [g.institutional_group_name,g.name.gsub(/\n/, " ").strip]
               end.sort].to_yaml(line_width: -1))
         end
       end
