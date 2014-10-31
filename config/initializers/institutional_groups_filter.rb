@@ -11,6 +11,12 @@ InstitutionalGroup.class_eval do
       .where("institutional_group_name !~* '^[Vv]erteilerliste\.'")
     }
 
+    def to_s
+      # remove last dot and text thereafter
+      group_name = institutional_group_name.split('.').slice(0...-1).join('.')
+      "#{name} (#{group_name})"
+    end
+
   end
 
 end
