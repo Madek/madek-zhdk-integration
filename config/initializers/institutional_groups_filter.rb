@@ -12,9 +12,7 @@ InstitutionalGroup.class_eval do
     }
 
     def to_s
-      # remove last dot and text thereafter
-      group_name = institutional_group_name.split('.').slice(0...-1).join('.')
-      "#{name} (#{group_name})"
+      "#{name} (#{institutional_group_name})"
     end
 
   end
