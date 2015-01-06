@@ -1,0 +1,25 @@
+Madek ZHdK 
+==========
+
+This project is part of [Madek](https://github.com/zhdk/madek).
+
+It contains data specific and relevant for operation within the ZHdK.  
+
+
+Import ZHdK LDAP Data
+---------------------
+
+1. Get a new Dump
+2. Include and link it from `./data/ldap.json`
+3. Import it e.g. by 
+
+```ruby
+InstitutionalGroupsImporter.import! MadekZhdkIntegration.zhdk_ldap_data
+
+MediaResource.find_in_batches do |mrs|
+  mrs.each do |mr|
+    mr.reindex
+  end
+end
+```
+
