@@ -4,7 +4,8 @@ require 'net/https'
 require 'cgi'
 
 class MadekZhdkIntegration::AuthenticationController < ApplicationController
-  include Concerns::SetSession
+  include Concerns::MadekSession
+
 
   AUTHENTICATION_URL = 'http://www.zhdk.ch/?auth/madek'
   APPLICATION_IDENT = 'fc7228cdd9defd78b81532ac71967beb'
@@ -27,12 +28,6 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       render text: 'Authentication Failure. HTTP connection failed ' \
         " - response was #{response.code}"
     end
-  end
-
-  def logout
-    reset_session
-    flash[:notice] = 'Sie haben sich abgemeldet.' # "You have been logged out."
-    redirect_to root_path
   end
 
   private
