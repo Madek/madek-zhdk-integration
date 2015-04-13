@@ -3,7 +3,7 @@ module MadekZhdkIntegration
 
     class << self
 
-      def reload! 
+      def reload!
         load Rails.root.join(__FILE__)
       end
 
@@ -11,13 +11,12 @@ module MadekZhdkIntegration
         Rails.root.join(__FILE__)
       end
 
-
-      def create_map 
-        File.open(Rails.root.join("tmp","ldap_map.yml"),"w") do |file|
+      def create_map
+        File.open(Rails.root.join('tmp', 'ldap_map.yml'), 'w') do |file|
           file.write(
             Hash[
-              InstitutionalGroup.all.map do |g| 
-                [g.institutional_group_name,g.name.gsub(/\n/, " ").strip]
+              InstitutionalGroup.all.map do |g|
+                [g.institutional_group_name, g.name.gsub(/\n/, ' ').strip]
               end.sort].to_yaml(line_width: -1))
         end
       end
