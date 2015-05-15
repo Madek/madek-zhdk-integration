@@ -11,10 +11,14 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   APPLICATION_IDENT = 'fc7228cdd9defd78b81532ac71967beb'
 
   def login
-    target = AUTHENTICATION_URL + '&url_postlogin=' + \
+    redirect_to AUTHENTICATION_URL + \
+      # url_home sets href of 'cancel button':
+      "&url_home=#{request.referer}" + \
+      # this is the "callback url" – we add our own (encoded!) param `return_to`:
+      '&url_postlogin=' + \
       CGI::escape("http://#{request.host}:#{request.port}" \
-                  "#{url_for('/authenticator/zhdk/login_successful/%s')}")
-    redirect_to target
+                  "#{url_for('/authenticator/zhdk/login_successful/%s')}") + \
+      CGI::escape("?return_to=#{request.referer}")
   end
 
   def login_successful(session_id = params[:id])
@@ -23,7 +27,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
     if response.code.to_i == 200
       xml = Hash.from_xml(response.body)
       set_madek_session create_or_update_user(xml['authresponse']['person'])
-      redirect_to root_path
+      redirect_to(params[:return_to].presence || root_path)
     else
       render text: 'Authentication Failure. HTTP connection failed ' \
         " - response was #{response.code}"
