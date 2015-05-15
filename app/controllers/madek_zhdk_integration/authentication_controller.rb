@@ -6,7 +6,6 @@ require 'cgi'
 class MadekZhdkIntegration::AuthenticationController < ApplicationController
   include Concerns::MadekSession
 
-
   AUTHENTICATION_URL = 'http://www.zhdk.ch/?auth/madek'
   APPLICATION_IDENT = 'fc7228cdd9defd78b81532ac71967beb'
 
@@ -27,7 +26,14 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
     if response.code.to_i == 200
       xml = Hash.from_xml(response.body)
       set_madek_session create_or_update_user(xml['authresponse']['person'])
-      redirect_to(params[:return_to].presence || root_path)
+      # build success message, possibly provided by AGW:
+      agw_message = 'ZHdK Login: ' + \
+        xml['authresponse']['result'].try(:[], 'msg').presence || 'OK'
+      # *always* clear the flash!
+      flash.discard
+      # redirect to original request target, force GET with 303, flash the message
+      redirect_to (params[:return_to].presence || root_path),
+                  status: 303, notice: agw_message
     else
       render text: 'Authentication Failure. HTTP connection failed ' \
         " - response was #{response.code}"
