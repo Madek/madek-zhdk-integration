@@ -35,8 +35,8 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       redirect_to (params[:return_to].presence || root_path),
                   status: 303, notice: agw_message
     else
-      render text: 'Authentication Failure. HTTP connection failed ' \
-        " - response was #{response.code}"
+      render plain: 'Authentication Failure. HTTP connection failed ' \
+        " - response was #{response.code}", status: 500
     end
   end
 
