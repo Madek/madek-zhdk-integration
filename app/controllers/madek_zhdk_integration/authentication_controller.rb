@@ -10,14 +10,24 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   APPLICATION_IDENT = 'fc7228cdd9defd78b81532ac71967beb'
 
   def login
-    redirect_to AUTHENTICATION_URL + \
-      # url_home sets href of 'cancel button':
-      "&url_home=#{request.referer}" + \
-      # this is the "callback url" – we add our own (encoded!) param `return_to`:
-      '&url_postlogin=' + \
-      CGI::escape("http://#{request.host}:#{request.port}" \
-                  "#{url_for('/authenticator/zhdk/login_successful/%s')}") + \
-      CGI::escape("?return_to=#{request.referer}")
+    redirect_to build_auth_url
+  end
+
+  def build_auth_url
+    "#{AUTHENTICATION_URL}&url_home=#{request.referer}&url_postlogin=#{postlogin_params}"
+  end
+
+  def postlogin_params
+    CGI::escape("http://#{request.host}:#{request.port}#{postlogin_path_part}?return_to=#{request.referer}")
+  end
+
+  def postlogin_path_part
+    "#{url_for(relative_url_root + '/authenticator/zhdk/login_successful/%s')}"
+  end
+
+
+  def relative_url_root
+    Rails.application.config.action_controller.relative_url_root
   end
 
   def login_successful(session_id = params[:id])
