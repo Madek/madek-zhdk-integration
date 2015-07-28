@@ -27,7 +27,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
 
 
   def relative_url_root
-    Rails.application.config.action_controller.relative_url_root
+    Rails.application.config.action_controller.relative_url_root.presence || ''
   end
 
   def login_successful(session_id = params[:id])
