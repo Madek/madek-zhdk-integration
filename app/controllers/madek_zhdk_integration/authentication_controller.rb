@@ -4,7 +4,7 @@ require 'net/https'
 require 'cgi'
 
 class MadekZhdkIntegration::AuthenticationController < ApplicationController
-  include Concerns::MadekSession
+  include Concerns::MadekCookieSession
 
   AUTHENTICATION_URL = 'http://www.zhdk.ch/?auth/madek'
   APPLICATION_IDENT = 'fc7228cdd9defd78b81532ac71967beb'
