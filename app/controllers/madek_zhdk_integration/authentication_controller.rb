@@ -9,6 +9,17 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   AUTHENTICATION_URL = 'http://www.zhdk.ch/?auth/madek'
   APPLICATION_IDENT = 'fc7228cdd9defd78b81532ac71967beb'
 
+  ZHDK_ADMIN_IDS = [
+    10301, # susanneschumacher
+    162294, # birkweiberg
+    182749, # tschank
+    186272, # cweckema
+    189987, # mkmit
+    195509, # pkuederl
+    196200, # malbrech
+  ]
+
+
   def login
     redirect_to build_auth_url
   end
@@ -35,7 +46,9 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
                      "&app_ident=#{APPLICATION_IDENT}")
     if response.code.to_i == 200
       xml = Hash.from_xml(response.body)
-      set_madek_session create_or_update_user(xml['authresponse']['person'])
+      user = create_or_update_user(xml['authresponse']['person'])
+      set_madek_session user
+      promote_to_admin user if ZHDK_ADMIN_IDS.include? user.zhdkid
       # build success message, possibly provided by AGW:
       agw_message = 'ZHdK Login: ' + \
         xml['authresponse']['result'].try(:[], 'msg').presence || 'OK'
@@ -51,6 +64,12 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   end
 
   private
+
+  def promote_to_admin user
+    unless user.admin
+      Admin.create user: user
+    end
+  end
 
   def fetch(uri_str, limit = 10)
      raise ArgumentError, 'HTTP redirect too deep' if limit == 0
