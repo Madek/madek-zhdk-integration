@@ -103,7 +103,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       user.groups << to_add
       user.groups.delete(to_remove)
 
-      zhdk_group = Group.find_or_create_by(
+      zhdk_group = AuthenticationGroup.find_or_create_by(
         name: 'ZHdK (Zürcher Hochschule der Künste)')
       user.groups << zhdk_group unless user.groups.include?(zhdk_group)
 
