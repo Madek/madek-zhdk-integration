@@ -3,7 +3,6 @@ Group.class_eval do
   if Settings.zhdk_integration
 
     scope :filter_by, lambda{ |search_term, filter = nil, _scope = nil|
-      binding.pry
       query = default_query(search_term, filter)
       zhdk_query(query, search_term, filter, _scope)
     }
