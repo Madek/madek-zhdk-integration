@@ -89,7 +89,8 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   def create_or_update_user(xml)
     user = User.find_by_zhdkid(xml['id'])
     if user.nil?
-      person = Person.find_or_create_by(first_name: xml['firstname'],
+      person = Person.find_or_create_by(subtype: 'Person',
+                                        first_name: xml['firstname'],
                                         last_name: xml['lastname'])
       user = person.create_user login: xml['local_username'], email: xml['email'],
                                 zhdkid: xml['id'], password: SecureRandom.base64
