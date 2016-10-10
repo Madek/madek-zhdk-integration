@@ -89,10 +89,20 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   def create_or_update_user(xml)
     user = User.find_by_zhdkid(xml['id'])
     if user.nil?
+      login = xml['local_username']
+      email = xml['email']
+      # remove existing equivalent logins
+      User.where(login: login).find_each do |user|
+        user.update_attributes! login: nil
+      end
+      # remove existing equivalent emails
+      User.where("lower(email) = lower(?)", email).find_each do |user|
+        user.update_attributes! email: nil
+      end
       person = Person.find_or_create_by(subtype: 'Person',
                                         first_name: xml['firstname'],
                                         last_name: xml['lastname'])
-      user = person.create_user login: xml['local_username'], email: xml['email'],
+      user = person.create_user login: login, email: email,
                                 zhdkid: xml['id'], password: SecureRandom.base64
     end
     if user
