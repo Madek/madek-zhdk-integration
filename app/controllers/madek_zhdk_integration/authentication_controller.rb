@@ -6,9 +6,8 @@ require 'cgi'
 class MadekZhdkIntegration::AuthenticationController < ApplicationController
   include Concerns::MadekCookieSession
 
-  AUTHENTICATION_URL = 'http://www.zhdk.ch/?auth/madek'
-  APPLICATION_IDENT = 'fc7228cdd9defd78b81532ac71967beb'
-
+  AGW_API_URL = Settings.zhdk_agw_api_url
+  AGW_API_SECRET = Settings.zhdk_agw_api_key
   ZHDK_ADMIN_IDS = [
     10301, # susanneschumacher
     162294, # birkweiberg
@@ -19,13 +18,14 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
     196200, # malbrech
   ]
 
-
   def login
+    fail 'missing AGW url!' if AGW_API_URL.nil?
+    fail 'missing AGW key!' if AGW_API_SECRET.nil?
     redirect_to build_auth_url
   end
 
   def build_auth_url
-    "#{AUTHENTICATION_URL}&url_home=#{request.referer}&url_postlogin=#{postlogin_params}"
+    "#{AGW_API_URL}&url_home=#{request.referer}&url_postlogin=#{postlogin_params}"
   end
 
   def postlogin_params
@@ -36,14 +36,13 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
     "#{url_for(relative_url_root + '/authenticator/zhdk/login_successful/%s')}"
   end
 
-
   def relative_url_root
     Rails.application.config.action_controller.relative_url_root.presence || ''
   end
 
   def login_successful(session_id = params[:id])
-    response = fetch("#{AUTHENTICATION_URL}/response&agw_sess_id=#{session_id}" \
-                     "&app_ident=#{APPLICATION_IDENT}")
+    response = fetch("#{AGW_API_URL}/response&agw_sess_id=#{session_id}" \
+                     "&app_ident=#{AGW_API_SECRET}")
     if response.code.to_i == 200
       xml = Hash.from_xml(response.body)
       user = create_or_update_user(xml['authresponse']['person'])
