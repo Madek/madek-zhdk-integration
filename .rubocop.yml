@@ -1,9 +1,13 @@
+Rails:
+  Enabled: true
+
 AllCops:
+  TargetRubyVersion: 2.3
   Exclude:
-    - 'db/**/*'
-    - 'config/**/*'
     - 'Gemfile'
-  RunRailsCops: true
+
+Lint/EndAlignment:
+  AlignWith: variable
 
 Lint/AmbiguousOperator:
   Enabled: false
@@ -35,7 +39,7 @@ Metrics/AbcSize:
 
 # Configuration parameters: CountComments.
 Metrics/ClassLength:
-  Max: 128
+  Max: 140
 
 Metrics/CyclomaticComplexity:
   Max: 10
@@ -154,7 +158,7 @@ Style/UnlessElse:
 # Cop supports --auto-correct.
 # Configuration parameters: WordRegex.
 Style/WordArray:
-  MinSize: 2
+  MinSize: 5
 
 # Configuration parameters: Include.
 Rails/HasAndBelongsToMany:
@@ -171,3 +175,36 @@ Rails/ReadWriteAttribute:
 # Configuration parameters: Include.
 Rails/Validation:
   Enabled: false
+
+Performance/TimesMap:
+  Exclude:
+    - 'spec/**/*'
+
+# NEW CONFIG SINCE VERSION > 0.29.1
+
+Style/MultilineMethodCallIndentation:
+  Enabled: false
+
+Style/IndentAssignment:
+  Enabled: false
+
+Style/NestedParenthesizedCalls:
+  Exclude:
+    - 'spec/**/*'
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Metrics/ModuleLength:
+  Max: 200
+  CountComments: false
+
+# NOTE: this is a bad joke
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# TODO: these seem rather important, check them out:
+
+Rails/Date:
+  Enabled: false
+
