@@ -26,7 +26,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   end
 
   def postlogin_path_part
-    url_for(relative_url_root + '/authenticator/zhdk/login_successful/%s').to_s
+    url_for(relative_url_root + '/login/zhdk/login_successful/%s').to_s
   end
 
   def relative_url_root
