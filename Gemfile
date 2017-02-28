@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 # Declare your gem's dependencies in madek_zhdk_integration.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and

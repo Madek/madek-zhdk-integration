@@ -25,7 +25,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   end
 
   def postlogin_path_part
-    "#{url_for(relative_url_root + '/authenticator/zhdk/login_successful/%s')}"
+    url_for(relative_url_root + '/authenticator/zhdk/login_successful/%s').to_s
   end
 
   def relative_url_root
@@ -56,7 +56,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
 
   private
 
-  def promote_to_admin user
+  def promote_to_admin(user)
     unless user.admin
       Admin.create user: user
     end
@@ -87,7 +87,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
         user.update_attributes! login: nil
       end
       # remove existing equivalent emails
-      User.where("lower(email) = lower(?)", email).find_each do |user|
+      User.where('lower(email) = lower(?)', email).find_each do |user|
         user.update_attributes! email: nil
       end
       person = Person.find_or_create_by(subtype: 'Person',
