@@ -21,9 +21,8 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   end
 
   def postlogin_params
-    # NOTE: only supports HTTPS on purpose
     CGI::escape(
-      "https://#{request.host}#{postlogin_path_part}?return_to=#{request.referer}")
+      "#{request.base_url}#{postlogin_path_part}?return_to=#{request.referer}")
   end
 
   def postlogin_path_part
