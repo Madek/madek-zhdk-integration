@@ -6,6 +6,9 @@ require 'cgi'
 class MadekZhdkIntegration::AuthenticationController < ApplicationController
   include Concerns::MadekCookieSession
 
+  # never ever change the following property; database p- and fkeys depend on it
+  ZHDK_USERS_GROUP_ID = UUIDTools::UUID.sha1_create Madek::Constants::MADEK_UUID_NS, 'ZHdK users'
+
   AGW_API_URL = Settings.zhdk_agw_api_url
   AGW_API_SECRET = Settings.zhdk_agw_api_key
   ZHDK_ADMIN_IDS = Settings.zhdk_admin_ids
@@ -97,6 +100,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       user = person.create_user login: login, email: email,
                                 zhdkid: xml['id'], password: SecureRandom.base64
     end
+
     if user
       groups = Array(xml['memberof']['group'])
       g = groups.map { |x| x.gsub('zhdk/', '') }
@@ -106,12 +110,13 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       user.groups << to_add
       user.groups.delete(to_remove)
 
-      zhdk_group = AuthenticationGroup.find_or_create_by(
-        name: 'ZHdK (Zürcher Hochschule der Künste)')
-      user.groups << zhdk_group unless user.groups.include?(zhdk_group)
-
-      user
+      zhdk_group = AuthenticationGroup.find_or_initialize_by id: ZHDK_USERS_GROUP_ID
+      zhdk_group.name ||= 'ZHdK (Zürcher Hochschule der Künste)'
+      zhdk_group.save! unless zhdk_group.persisted?
+      zhdk_group.users << user unless zhdk_group.users.include?(user)
     end
+
+    user
   end
 
 end
