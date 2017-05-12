@@ -43,7 +43,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       xml = Hash.from_xml(response.body)
       user = create_or_update_user(xml['authresponse']['person'])
       set_madek_session user, true
-      promote_to_admin user if ZHDK_ADMIN_IDS.include? user.zhdkid
+      promote_to_admin user if ZHDK_ADMIN_IDS.try(:include?, user.try(:zhdkid)) 
       # build success message, possibly provided by AGW:
       agw_message = 'ZHdK Login: ' + \
         xml['authresponse']['result'].try(:[], 'msg').presence || 'OK'
