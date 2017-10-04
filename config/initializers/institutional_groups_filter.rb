@@ -2,12 +2,12 @@ InstitutionalGroup.class_eval do
 
   def self.filter_sql
     <<-SQL
-      institutional_group_name ~* '\.alle$'
-      AND institutional_group_name !~* '^[Dd]ozierende\.'
-      AND institutional_group_name !~* '^[Mm]ittelbau\.'
-      AND institutional_group_name !~* '^[Pp]ersonal\.'
-      AND institutional_group_name !~* '^[Ss]tudierende\.'
-      AND institutional_group_name !~* '^[Vv]erteilerliste\.'
+      institutional_name ~* '\.alle$'
+      AND institutional_name !~* '^[Dd]ozierende\.'
+      AND institutional_name !~* '^[Mm]ittelbau\.'
+      AND institutional_name !~* '^[Pp]ersonal\.'
+      AND institutional_name !~* '^[Ss]tudierende\.'
+      AND institutional_name !~* '^[Vv]erteilerliste\.'
     SQL
   end
 
@@ -18,7 +18,7 @@ InstitutionalGroup.class_eval do
     }
 
     def to_s
-      "#{name} (#{institutional_group_name})"
+      "#{name} (#{institutional_name})"
     end
 
   end
