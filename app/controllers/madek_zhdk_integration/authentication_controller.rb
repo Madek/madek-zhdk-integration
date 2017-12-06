@@ -11,7 +11,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
 
   AGW_API_URL = Settings.zhdk_agw_api_url
   AGW_API_SECRET = Settings.zhdk_agw_api_key
-  ZHDK_ADMIN_IDS = Settings.zhdk_admin_ids
+  ZHDK_ADMIN_IDS = Settings.zhdk_admin_ids.presence || []
 
   def login
     fail 'missing AGW url!' if AGW_API_URL.nil?
