@@ -20,7 +20,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   end
 
   def build_auth_url
-    "#{AGW_API_URL}&url_home=#{request.referer}&url_postlogin=#{postlogin_params}"
+    "#{AGW_API_URL}&delogin=1&url_home=#{request.referer}&url_postlogin=#{postlogin_params}"
   end
 
   def postlogin_params
