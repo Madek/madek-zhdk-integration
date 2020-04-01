@@ -8,7 +8,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
 
   # never ever change the following property; database p- and fkeys depend on it
   ZHDK_USERS_GROUP_ID = UUIDTools::UUID.sha1_create Madek::Constants::MADEK_UUID_NS, 'ZHdK users'
-  
+
   AGW_API_SECRET = Settings.zhdk_agw_api_key
   AGW_API_URL = Settings.zhdk_agw_api_url
   AGW_APP_HOME_URL = Settings.madek_external_base_url
@@ -21,7 +21,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   end
 
   def build_auth_url
-    "#{AGW_API_URL}&delogin=1&url_home=#{AGW_APP_HOME_URL}&url_postlogin=#{postlogin_params}"
+    "#{AGW_API_URL}&url_home=#{AGW_APP_HOME_URL}&url_postlogin=#{postlogin_params}"
   end
 
   def postlogin_params
