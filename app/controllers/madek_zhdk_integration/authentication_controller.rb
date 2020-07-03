@@ -107,7 +107,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       g = groups.map { |x| x.gsub('zhdk/', '') }
       new_groups = InstitutionalGroup.where(institutional_name: g)
       to_add = (new_groups - user.groups.departments)
-      to_remove = (user.groups.departments - new_groups)
+      to_remove = (user.groups.departments - new_groups) - fixed_groups_to_always_keep
       user.groups << to_add
       user.groups.delete(to_remove)
 
@@ -118,6 +118,14 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
     end
 
     user
+  end
+
+  def fixed_groups_to_always_keep
+    fixed_group_ids = [
+      Madek::Constants::BETA_TESTERS_QUICK_EDIT_GROUP_ID,
+      Madek::Constants::BETA_TESTERS_WORKFLOWS_GROUP_ID
+    ]
+    InstitutionalGroup.where(id: fixed_group_ids)
   end
 
 end
