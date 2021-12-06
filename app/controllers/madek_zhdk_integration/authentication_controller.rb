@@ -25,8 +25,8 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   end
 
   def postlogin_params
-    CGI::escape(
-      "#{request.base_url}#{postlogin_path_part}?return_to=#{request.referer}")
+    return_to_target = param_return_to_if_relative(params) || request.referer
+    CGI::escape("#{request.base_url}#{postlogin_path_part}?return_to=#{return_to_target}")
   end
 
   def postlogin_path_part
@@ -51,7 +51,7 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       # *always* clear the flash!
       flash.discard
       # redirect to original request target, force GET with 303, flash the message
-      redirect_to (params[:return_to].presence || root_path),
+      redirect_to (param_return_to_if_relative(params) || params[:return_to].presence || root_path),
                   status: 303, notice: agw_message
     else
       render plain: 'Authentication Failure. HTTP connection failed ' \
@@ -126,6 +126,16 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       Madek::Constants::BETA_TESTERS_WORKFLOWS_GROUP_ID
     ]
     InstitutionalGroup.where(id: fixed_group_ids)
+  end
+
+  def param_return_to_if_relative(params)
+    # use given return_to paramater, only if it is a relative URL
+    return_to_param = params['return_to']
+    begin
+      URI.parse(return_to_param).relative? ? return_to_param : nil
+    rescue => e
+      nil
+    end
   end
 
 end
