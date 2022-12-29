@@ -89,11 +89,11 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       email = xml['email']
       # remove existing equivalent logins
       User.where(login: login).find_each do |user|
-        user.update_attributes! login: nil
+        user.update! login: nil
       end
       # remove existing equivalent emails
       User.where('lower(email) = lower(?)', email).find_each do |user|
-        user.update_attributes! email: nil
+        user.update! email: nil
       end
       person = Person.find_or_create_by(subtype: 'Person',
                                         first_name: xml['firstname'],
