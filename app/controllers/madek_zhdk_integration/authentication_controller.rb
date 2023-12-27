@@ -98,11 +98,13 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
       User.where('lower(email) = lower(?)', email).find_each do |user|
         user.update! email: nil
       end
-      person = Person.find_or_create_by(subtype: 'Person',
-                                        first_name: xml['firstname'],
-                                        last_name: xml['lastname'])
+      person = Person.create(subtype: 'Person',
+                              first_name: xml['firstname'],
+                              last_name: xml['lastname'])
       user = person.create_user login: login, email: email,
-                                institutional_id: xml['id'], password: SecureRandom.base64
+                                institutional_id: xml['id'], password: SecureRandom.base64,
+                                first_name: xml['firstname'],
+                                last_name: xml['lastname']
     end
 
     if user
