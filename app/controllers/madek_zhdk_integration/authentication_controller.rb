@@ -86,10 +86,15 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
   end
 
   def create_or_update_user(xml)
-    user = User.find_by_institutional_id(xml['id'])
+    institutional_id = xml['id']
+    institution ='zhdk.ch'
+    user = User.find_by institutional_id: institutional_id,
+      institution: institution
     if user.nil?
       login = xml['local_username']
       email = xml['email']
+      firstname = xml['firstname']
+      lastname = xml['lastname']
       # remove existing equivalent logins
       User.where(login: login).find_each do |user|
         user.update! login: nil
@@ -99,10 +104,13 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
         user.update! email: nil
       end
       person = Person.create(subtype: 'Person',
-                              first_name: xml['firstname'],
-                              last_name: xml['lastname'])
+                              first_name: firstname,
+                              last_name: lastname,
+                              institution: 'zhdk',
+                              institutional_id: institutional_id)
       user = person.create_user login: login, email: email,
-                                institutional_id: xml['id'], password: SecureRandom.base64,
+                                institutional_id: institutional_id,
+                                institution: institution,
                                 first_name: xml['firstname'],
                                 last_name: xml['lastname']
     end
@@ -110,9 +118,9 @@ class MadekZhdkIntegration::AuthenticationController < ApplicationController
     if user
       groups = Array(xml['memberof']['group'])
       g = groups.map { |x| x.gsub('zhdk/', '') }
-      new_groups = InstitutionalGroup.where(institutional_name: g)
-      to_add = (new_groups - user.groups.departments)
-      to_remove = (user.groups.departments - new_groups) - fixed_groups_to_always_keep
+      target_groups = InstitutionalGroup.where(institutional_name: g)
+      to_add = (target_groups - user.groups.departments)
+      to_remove = (user.groups.departments - target_groups) - fixed_groups_to_always_keep
       user.groups << to_add
       user.groups.delete(to_remove)
 
