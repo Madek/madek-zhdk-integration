@@ -4,7 +4,7 @@ require 'net/https'
 require 'cgi'
 
 class MadekZhdkIntegration::AuthenticationController < ApplicationController
-  include Concerns::MadekCookieSession
+  include MadekCookieSession
 
   # never ever change the following property; database p- and fkeys depend on it
   ZHDK_USERS_GROUP_ID = UUIDTools::UUID.sha1_create Madek::Constants::MADEK_UUID_NS, 'ZHdK users'
